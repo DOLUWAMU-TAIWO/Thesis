@@ -1,0 +1,17 @@
+// The Block Diagram
+digraph {
+	A [label="ThingSpeak Cloud"]
+	B [label="Ethernet Interface"]
+	C [label="MicroBlaze Processor"]
+	D [label="AES Encryption/Decryption IP Core"]
+	E [label=Memory]
+	F [label="User Interface (Optional)"]
+	G [label=Output]
+	A -> B
+	B -> C
+	C -> D [label="Data for Encryption"]
+	D -> C [label="Encrypted Data"]
+	C -> E [label="Memory Access"]
+	C -> F [label="User Control & Status"]
+	C -> G [label="Encrypted Data Output"]
+}
