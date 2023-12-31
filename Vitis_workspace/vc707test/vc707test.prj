@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="vc707test" location="/home/dolu/Documents/GitHub/Thesis/Vitis_workspace/vc707test" platform="/home/dolu/Documents/GitHub/Thesis/Vitis_workspace/Virtex_wrapper/export/Virtex_wrapper/Virtex_wrapper.xpfm" platformUID="xilinx:vc707::0.0(custom)" systemProject="vc707test_system" sysConfig="Virtex_wrapper" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="71e46647edb0a1d057cf1f93de06bd0d">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.851647711" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1748258657" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

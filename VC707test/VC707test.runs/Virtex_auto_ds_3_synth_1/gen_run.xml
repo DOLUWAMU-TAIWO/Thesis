@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="Virtex_auto_ds_3_synth_1" LaunchPart="xc7vx485tffg1761-2" LaunchTime="1703243150">
-  <File Type="PA-TCL" Name="Virtex_auto_ds_3.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="Virtex_auto_ds_3_drc_synth.rpt"/>
-  <File Type="REPORTS-TCL" Name="Virtex_auto_ds_3_reports.tcl"/>
-  <File Type="RDS-RDS" Name="Virtex_auto_ds_3.vds"/>
-  <File Type="RDS-UTIL" Name="Virtex_auto_ds_3_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="Virtex_auto_ds_3_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="Virtex_auto_ds_3.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="Virtex_auto_ds_3_timing_summary_synth.rpt"/>
+<GenRun Id="Virtex_auto_ds_3_synth_1" LaunchPart="xc7vx485tffg1761-2" LaunchTime="1703963603">
   <File Type="VDS-TIMING-PB" Name="Virtex_auto_ds_3_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Virtex_auto_ds_3_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="Virtex_auto_ds_3.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="Virtex_auto_ds_3_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="Virtex_auto_ds_3_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="Virtex_auto_ds_3_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="Virtex_auto_ds_3.vds"/>
+  <File Type="REPORTS-TCL" Name="Virtex_auto_ds_3_reports.tcl"/>
+  <File Type="PA-TCL" Name="Virtex_auto_ds_3.tcl"/>
   <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Virtex_auto_ds_3">
     <File Path="$PSRCDIR/sources_1/bd/Virtex/ip/Virtex_auto_ds_3/Virtex_auto_ds_3.xci">
       <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -25,6 +26,7 @@
   <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Virtex_auto_ds_3">
     <File Path="$PSRCDIR/sources_1/bd/Virtex/ip/Virtex_auto_ds_3/Virtex_auto_ds_3.xci">
       <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -42,9 +44,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>
