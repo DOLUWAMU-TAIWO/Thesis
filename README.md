@@ -1,5 +1,5 @@
-# Thesis
-The Integration and Evaluation of RISC V on FPGA for a FreeRTOS application.
+# Thesis-The Integration and Evaluation of RISC V on FPGA for a FreeRTOS application.
+
 
 
 The landscape of computer architecture is now more than ever evolving rapidly; this is in most part driven by the need for systems that are highly efficient and adaptable. There is also a demand for high-performance computing which is crucial in application areas such as machine learning and artificial intelligence. In this vein, RISC-V, which is an open-source ISA, has garnered significant attention. Its modular and customizable nature is a promising prospect for developing specialized systems as required by most Industry 4.0 applications.
