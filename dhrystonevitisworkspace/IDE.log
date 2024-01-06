@@ -1,0 +1,14 @@
+21:43:51 DEBUG : Logs will be stored at '/home/dolu/Documents/GitHub/Thesis/dhrystonevitisworkspace/IDE.log'.
+21:43:52 INFO  : Platform repository initialization has completed.
+21:43:52 INFO  : Launching XSCT server: xsct -n  -interactive /home/dolu/Documents/GitHub/Thesis/dhrystonevitisworkspace/temp_xsdb_launch_script.tcl
+21:43:52 INFO  : Registering command handlers for Vitis TCF services
+21:43:54 INFO  : XSCT server has started successfully.
+21:43:54 INFO  : plnx-install-location is set to ''
+21:43:54 INFO  : Successfully done setting XSCT server connection channel  
+21:43:54 INFO  : Successfully done query RDI_DATADIR 
+21:43:54 INFO  : Successfully done setting workspace for the tool. 
+21:45:26 INFO  : Result from executing command 'getProjects': Linux_bd_wrapper
+21:45:26 INFO  : Result from executing command 'getPlatforms': 
+21:45:26 WARN  : An unexpected exception occurred in the module 'platform project logging'
+21:45:27 INFO  : Platform 'Linux_bd_wrapper' is added to custom repositories.
+21:45:30 INFO  : Platform 'Linux_bd_wrapper' is added to custom repositories.
