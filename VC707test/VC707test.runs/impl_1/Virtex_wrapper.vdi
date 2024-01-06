@@ -1,0 +1,1186 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Dec 30 20:31:42 2023
+# Process ID: 84494
+# Current directory: /home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.runs/impl_1
+# Command line: vivado -log Virtex_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Virtex_wrapper.tcl -notrace
+# Log file: /home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.runs/impl_1/Virtex_wrapper.vdi
+# Journal file: /home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.runs/impl_1/vivado.jou
+# Running On: dolu, OS: Linux, CPU Frequency: 1900.000 MHz, CPU Physical cores: 4, Host memory: 33381 MB
+#-----------------------------------------------------------
+source Virtex_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1261.164 ; gain = 0.023 ; free physical = 6857 ; free virtual = 27585
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.2/data/ip'.
+Command: link_design -top Virtex_wrapper -part xc7vx485tffg1761-2
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
+INFO: [Project 1-454] Reading design checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_axi_gpio_0_1/Virtex_axi_gpio_0_1.dcp' for cell 'Virtex_i/axi_gpio_BUTTONS'
+INFO: [Project 1-454] Reading design checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_axi_gpio_0_0/Virtex_axi_gpio_0_0.dcp' for cell 'Virtex_i/axi_gpio_LED'
+INFO: [Project 1-454] Reading design checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_axi_uartlite_0_0/Virtex_axi_uartlite_0_0.dcp' for cell 'Virtex_i/axi_uartlite_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_mdm_1_0/Virtex_mdm_1_0.dcp' for cell 'Virtex_i/mdm_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_microblaze_0_0/Virtex_microblaze_0_0.dcp' for cell 'Virtex_i/microblaze_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_microblaze_0_axi_intc_0/Virtex_microblaze_0_axi_intc_0.dcp' for cell 'Virtex_i/microblaze_0_axi_intc'
+INFO: [Project 1-454] Reading design checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_mig_7series_0_0_2/Virtex_mig_7series_0_0.dcp' for cell 'Virtex_i/mig_7series_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_rst_mig_7series_0_200M_0/Virtex_rst_mig_7series_0_200M_0.dcp' for cell 'Virtex_i/rst_mig_7series_0_200M'
+INFO: [Project 1-454] Reading design checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_xbar_0/Virtex_xbar_0.dcp' for cell 'Virtex_i/microblaze_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_ds_0/Virtex_auto_ds_0.dcp' for cell 'Virtex_i/microblaze_0_axi_periph/m00_couplers/auto_ds'
+INFO: [Project 1-454] Reading design checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_pc_0/Virtex_auto_pc_0.dcp' for cell 'Virtex_i/microblaze_0_axi_periph/m00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_ds_1/Virtex_auto_ds_1.dcp' for cell 'Virtex_i/microblaze_0_axi_periph/m02_couplers/auto_ds'
+INFO: [Project 1-454] Reading design checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_pc_1/Virtex_auto_pc_1.dcp' for cell 'Virtex_i/microblaze_0_axi_periph/m02_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_ds_2/Virtex_auto_ds_2.dcp' for cell 'Virtex_i/microblaze_0_axi_periph/m03_couplers/auto_ds'
+INFO: [Project 1-454] Reading design checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_pc_2/Virtex_auto_pc_2.dcp' for cell 'Virtex_i/microblaze_0_axi_periph/m03_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_ds_3/Virtex_auto_ds_3.dcp' for cell 'Virtex_i/microblaze_0_axi_periph/m04_couplers/auto_ds'
+INFO: [Project 1-454] Reading design checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_pc_3/Virtex_auto_pc_3.dcp' for cell 'Virtex_i/microblaze_0_axi_periph/m04_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_pc_4/Virtex_auto_pc_4.dcp' for cell 'Virtex_i/microblaze_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_us_0/Virtex_auto_us_0.dcp' for cell 'Virtex_i/microblaze_0_axi_periph/s00_couplers/auto_us'
+INFO: [Project 1-454] Reading design checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_us_1/Virtex_auto_us_1.dcp' for cell 'Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us'
+INFO: [Project 1-454] Reading design checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_us_2/Virtex_auto_us_2.dcp' for cell 'Virtex_i/microblaze_0_axi_periph/s02_couplers/auto_us'
+INFO: [Project 1-454] Reading design checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_dlmb_bram_if_cntlr_0/Virtex_dlmb_bram_if_cntlr_0.dcp' for cell 'Virtex_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+INFO: [Project 1-454] Reading design checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_dlmb_v10_0/Virtex_dlmb_v10_0.dcp' for cell 'Virtex_i/microblaze_0_local_memory/dlmb_v10'
+INFO: [Project 1-454] Reading design checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_ilmb_bram_if_cntlr_0/Virtex_ilmb_bram_if_cntlr_0.dcp' for cell 'Virtex_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+INFO: [Project 1-454] Reading design checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_ilmb_v10_0/Virtex_ilmb_v10_0.dcp' for cell 'Virtex_i/microblaze_0_local_memory/ilmb_v10'
+INFO: [Project 1-454] Reading design checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_lmb_bram_0/Virtex_lmb_bram_0.dcp' for cell 'Virtex_i/microblaze_0_local_memory/lmb_bram'
+Netlist sorting complete. Time (s): cpu = 00:00:00.84 ; elapsed = 00:00:00.85 . Memory (MB): peak = 1939.719 ; gain = 0.000 ; free physical = 6110 ; free virtual = 26854
+INFO: [Netlist 29-17] Analyzing 4049 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_mig_7series_0_0_2/Virtex_mig_7series_0_0/user_design/constraints/Virtex_mig_7series_0_0.xdc] for cell 'Virtex_i/mig_7series_0'
+Finished Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_mig_7series_0_0_2/Virtex_mig_7series_0_0/user_design/constraints/Virtex_mig_7series_0_0.xdc] for cell 'Virtex_i/mig_7series_0'
+Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_mig_7series_0_0_2/Virtex_mig_7series_0_0_board.xdc] for cell 'Virtex_i/mig_7series_0'
+Finished Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_mig_7series_0_0_2/Virtex_mig_7series_0_0_board.xdc] for cell 'Virtex_i/mig_7series_0'
+Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_microblaze_0_0/Virtex_microblaze_0_0.xdc] for cell 'Virtex_i/microblaze_0/U0'
+Finished Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_microblaze_0_0/Virtex_microblaze_0_0.xdc] for cell 'Virtex_i/microblaze_0/U0'
+Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_microblaze_0_axi_intc_0/Virtex_microblaze_0_axi_intc_0.xdc] for cell 'Virtex_i/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_microblaze_0_axi_intc_0/Virtex_microblaze_0_axi_intc_0.xdc] for cell 'Virtex_i/microblaze_0_axi_intc/U0'
+Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_rst_mig_7series_0_200M_0/Virtex_rst_mig_7series_0_200M_0_board.xdc] for cell 'Virtex_i/rst_mig_7series_0_200M/U0'
+Finished Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_rst_mig_7series_0_200M_0/Virtex_rst_mig_7series_0_200M_0_board.xdc] for cell 'Virtex_i/rst_mig_7series_0_200M/U0'
+Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_rst_mig_7series_0_200M_0/Virtex_rst_mig_7series_0_200M_0.xdc] for cell 'Virtex_i/rst_mig_7series_0_200M/U0'
+Finished Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_rst_mig_7series_0_200M_0/Virtex_rst_mig_7series_0_200M_0.xdc] for cell 'Virtex_i/rst_mig_7series_0_200M/U0'
+Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_axi_gpio_0_0/Virtex_axi_gpio_0_0_board.xdc] for cell 'Virtex_i/axi_gpio_LED/U0'
+Finished Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_axi_gpio_0_0/Virtex_axi_gpio_0_0_board.xdc] for cell 'Virtex_i/axi_gpio_LED/U0'
+Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_axi_gpio_0_0/Virtex_axi_gpio_0_0.xdc] for cell 'Virtex_i/axi_gpio_LED/U0'
+Finished Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_axi_gpio_0_0/Virtex_axi_gpio_0_0.xdc] for cell 'Virtex_i/axi_gpio_LED/U0'
+Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_axi_gpio_0_1/Virtex_axi_gpio_0_1_board.xdc] for cell 'Virtex_i/axi_gpio_BUTTONS/U0'
+Finished Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_axi_gpio_0_1/Virtex_axi_gpio_0_1_board.xdc] for cell 'Virtex_i/axi_gpio_BUTTONS/U0'
+Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_axi_gpio_0_1/Virtex_axi_gpio_0_1.xdc] for cell 'Virtex_i/axi_gpio_BUTTONS/U0'
+Finished Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_axi_gpio_0_1/Virtex_axi_gpio_0_1.xdc] for cell 'Virtex_i/axi_gpio_BUTTONS/U0'
+Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_axi_uartlite_0_0/Virtex_axi_uartlite_0_0_board.xdc] for cell 'Virtex_i/axi_uartlite_0/U0'
+Finished Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_axi_uartlite_0_0/Virtex_axi_uartlite_0_0_board.xdc] for cell 'Virtex_i/axi_uartlite_0/U0'
+Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_axi_uartlite_0_0/Virtex_axi_uartlite_0_0.xdc] for cell 'Virtex_i/axi_uartlite_0/U0'
+Finished Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_axi_uartlite_0_0/Virtex_axi_uartlite_0_0.xdc] for cell 'Virtex_i/axi_uartlite_0/U0'
+Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_us_0/Virtex_auto_us_0_clocks.xdc] for cell 'Virtex_i/microblaze_0_axi_periph/s00_couplers/auto_us/inst'
+Finished Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_us_0/Virtex_auto_us_0_clocks.xdc] for cell 'Virtex_i/microblaze_0_axi_periph/s00_couplers/auto_us/inst'
+Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_us_1/Virtex_auto_us_1_clocks.xdc] for cell 'Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst'
+Finished Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_us_1/Virtex_auto_us_1_clocks.xdc] for cell 'Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst'
+Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_us_2/Virtex_auto_us_2_clocks.xdc] for cell 'Virtex_i/microblaze_0_axi_periph/s02_couplers/auto_us/inst'
+Finished Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_us_2/Virtex_auto_us_2_clocks.xdc] for cell 'Virtex_i/microblaze_0_axi_periph/s02_couplers/auto_us/inst'
+Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_ds_0/Virtex_auto_ds_0_clocks.xdc] for cell 'Virtex_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst'
+Finished Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_ds_0/Virtex_auto_ds_0_clocks.xdc] for cell 'Virtex_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst'
+Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_ds_1/Virtex_auto_ds_1_clocks.xdc] for cell 'Virtex_i/microblaze_0_axi_periph/m02_couplers/auto_ds/inst'
+Finished Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_ds_1/Virtex_auto_ds_1_clocks.xdc] for cell 'Virtex_i/microblaze_0_axi_periph/m02_couplers/auto_ds/inst'
+Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_ds_2/Virtex_auto_ds_2_clocks.xdc] for cell 'Virtex_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst'
+Finished Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_ds_2/Virtex_auto_ds_2_clocks.xdc] for cell 'Virtex_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst'
+Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_ds_3/Virtex_auto_ds_3_clocks.xdc] for cell 'Virtex_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst'
+Finished Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_ds_3/Virtex_auto_ds_3_clocks.xdc] for cell 'Virtex_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst'
+Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_microblaze_0_axi_intc_0/Virtex_microblaze_0_axi_intc_0_clocks.xdc] for cell 'Virtex_i/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_microblaze_0_axi_intc_0/Virtex_microblaze_0_axi_intc_0_clocks.xdc] for cell 'Virtex_i/microblaze_0_axi_intc/U0'
+Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_mdm_1_0/Virtex_mdm_1_0.xdc] for cell 'Virtex_i/mdm_1/U0'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_mdm_1_0/Virtex_mdm_1_0.xdc:50]
+INFO: [Timing 38-2] Deriving generated clocks [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_mdm_1_0/Virtex_mdm_1_0.xdc:50]
+get_clocks: Time (s): cpu = 00:00:18 ; elapsed = 00:00:13 . Memory (MB): peak = 2904.973 ; gain = 643.617 ; free physical = 5375 ; free virtual = 26114
+Finished Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_mdm_1_0/Virtex_mdm_1_0.xdc] for cell 'Virtex_i/mdm_1/U0'
+INFO: [Project 1-1714] 12 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Generating merged BMM file for the design top 'Virtex_wrapper'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: /home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_microblaze_0_0/data/mb_bootloop_le.elf 
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3201.117 ; gain = 0.000 ; free physical = 5446 ; free virtual = 26184
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 693 instances were transformed.
+  IOBUFDS_DIFF_OUT_DCIEN => IOBUFDS_DIFF_OUT_DCIEN (IBUFDS_IBUFDISABLE_INT(x2), INV, OBUFTDS_DCIEN(x2)): 8 instances
+  IOBUF_DCIEN => IOBUF_DCIEN (IBUF_IBUFDISABLE, OBUFT_DCIEN): 64 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 64 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS(x2)): 1 instance 
+  RAM16X1D => RAM32X1D (RAMD32(x2)): 32 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 468 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 56 instances
+
+40 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:57 ; elapsed = 00:00:51 . Memory (MB): peak = 3201.117 ; gain = 1901.672 ; free physical = 5446 ; free virtual = 26184
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx485t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 3201.117 ; gain = 0.000 ; free physical = 5437 ; free virtual = 26176
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 1c10da867
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 3201.117 ; gain = 0.000 ; free physical = 5385 ; free virtual = 26123
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mdm_1/U0/MDM_Core_I1/JTAG_CONTROL_I/Use_BSCAN.FDC_I/Use_Serial_Unified_Completion.Completion_Status_Register.sample_1[15]_i_1 into driver instance Virtex_i/mdm_1/U0/MDM_Core_I1/JTAG_CONTROL_I/Use_BSCAN.FDC_I/Use_Serial_Unified_Completion.Completion_Status_Register.sample_1[15]_i_2, which resulted in an inversion of 14 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/microblaze_0/U0/MicroBlaze_Core_I/Using_FPGA.Native_i_1__1 into driver instance Virtex_i/microblaze_0_local_memory/ilmb_bram_if_cntlr/U0/Sl_Ready_INST_0, which resulted in an inversion of 34 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.USE_SPLIT.write_resp_inst/first_mi_word_i_2 into driver instance Virtex_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.USE_SPLIT.write_resp_inst/s_axi_bvalid_INST_0_i_1, which resulted in an inversion of 5 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/microblaze_0_axi_periph/m02_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.USE_SPLIT.write_resp_inst/first_mi_word_i_2 into driver instance Virtex_i/microblaze_0_axi_periph/m02_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.USE_SPLIT.write_resp_inst/s_axi_bvalid_INST_0_i_1, which resulted in an inversion of 5 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.USE_SPLIT.write_resp_inst/first_mi_word_i_2 into driver instance Virtex_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.USE_SPLIT.write_resp_inst/s_axi_bvalid_INST_0_i_1, which resulted in an inversion of 5 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.USE_SPLIT.write_resp_inst/first_mi_word_i_2 into driver instance Virtex_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.USE_SPLIT.write_resp_inst/s_axi_bvalid_INST_0_i_1, which resulted in an inversion of 5 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_read.si_transactor_ar/gen_addr_decoder.addr_decoder_inst/i_/gen_single_issue.active_target_hot[5]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_read.si_transactor_ar/gen_addr_decoder.addr_decoder_inst/i_/gen_arbiter.m_target_hot_i[5]_i_6, which resulted in an inversion of 14 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_write.si_transactor_aw/gen_single_issue.active_target_hot[5]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_primitive_shifter.gen_srls[0].srl_inst_i_5__1, which resulted in an inversion of 21 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_read.si_transactor_ar/gen_addr_decoder.addr_decoder_inst/i_/gen_single_thread.active_target_hot[5]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_read.si_transactor_ar/gen_addr_decoder.addr_decoder_inst/i_/gen_arbiter.m_target_hot_i[5]_i_3, which resulted in an inversion of 9 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[2].gen_si_read.si_transactor_ar/gen_addr_decoder.addr_decoder_inst/i_/gen_single_thread.active_target_hot[5]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[2].gen_si_read.si_transactor_ar/gen_addr_decoder.addr_decoder_inst/i_/gen_arbiter.m_target_hot_i[5]_i_5, which resulted in an inversion of 5 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/ddr_phy_prbs_rdlvl_gen.u_ddr_phy_prbs_rdlvl/complex_victim_inc_i_1 into driver instance Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/ddr_phy_prbs_rdlvl_gen.u_ddr_phy_prbs_rdlvl/samples_cnt_r[11]_i_3, which resulted in an inversion of 17 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/ddr_phy_tempmon_0/tempmon_state[0]_i_1 into driver instance Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/ddr_phy_tempmon_0/tempmon_state[10]_i_7, which resulted in an inversion of 20 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/u_ddr_phy_init/calib_wrdata_en_i_1 into driver instance Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/u_ddr_phy_init/calib_wrdata_en_i_2, which resulted in an inversion of 4 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/u_ddr_phy_init/init_state_r[6]_i_1 into driver instance Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/mem_intfc0/ddr_phy_top0/u_ddr_calib_top/u_ddr_phy_init/init_state_r[6]_i_2, which resulted in an inversion of 2 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[0]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[64]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[10]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[74]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[11]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[75]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[12]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[76]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[13]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[77]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[14]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[78]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[15]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[79]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[16]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[80]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[17]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[81]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[18]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[82]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[19]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[83]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[1]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[65]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[20]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[84]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[21]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[85]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[22]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[86]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[23]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[87]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[24]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[88]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[25]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[89]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[26]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[90]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[27]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[91]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[28]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[92]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[29]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[93]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[2]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[66]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[30]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[94]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[31]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[95]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[32]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[96]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[33]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[97]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[34]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[98]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[35]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[99]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[36]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[100]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[37]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[101]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[38]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[102]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[39]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[103]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[3]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[67]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[40]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[104]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[41]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[105]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[42]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[106]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[43]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[107]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[44]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[108]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[45]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[109]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[46]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[110]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[47]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[111]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[48]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[112]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[49]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[113]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[4]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[68]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[50]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[114]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[51]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[115]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[52]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[116]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[53]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[117]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[54]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[118]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[55]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[119]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[56]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[120]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[57]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[121]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[58]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[122]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[59]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[123]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[5]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[69]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[60]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[124]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[61]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[125]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[62]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[126]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[63]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[127]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[6]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[70]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[7]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[71]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[8]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[72]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wdf_mask[9]_i_1 into driver instance Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_axi_wstrb[73]_INST_0, which resulted in an inversion of 3 pins
+INFO: [Opt 31-138] Pushed 4 inverter(s) to 7 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1caa3a8e3
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:03 . Memory (MB): peak = 3247.664 ; gain = 0.000 ; free physical = 5147 ; free virtual = 25891
+INFO: [Opt 31-389] Phase Retarget created 87 cells and removed 287 cells
+INFO: [Opt 31-1021] In phase Retarget, 190 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 18 inverter(s) to 91 load pin(s).
+Phase 2 Constant propagation | Checksum: 1f7f57aeb
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 3247.664 ; gain = 0.000 ; free physical = 5139 ; free virtual = 25883
+INFO: [Opt 31-389] Phase Constant propagation created 2718 cells and removed 11431 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 109 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 1edbae8ea
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 3247.664 ; gain = 0.000 ; free physical = 5140 ; free virtual = 25879
+INFO: [Opt 31-389] Phase Sweep created 8 cells and removed 4500 cells
+INFO: [Opt 31-1021] In phase Sweep, 385 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-194] Inserted BUFG Virtex_i/mdm_1/U0/Use_E2.BSCAN_I/Dbg_Update_0_BUFG_inst to drive 40 load(s) on clock net Virtex_i/mdm_1/U0/Use_E2.BSCAN_I/Dbg_Update_0_BUFG
+INFO: [Opt 31-193] Inserted 1 BUFG(s) on clock nets
+Phase 4 BUFG optimization | Checksum: 1cc82f9f6
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 3247.664 ; gain = 0.000 ; free physical = 5134 ; free virtual = 25881
+INFO: [Opt 31-662] Phase BUFG optimization created 1 cells of which 1 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 1cc82f9f6
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 3247.664 ; gain = 0.000 ; free physical = 5133 ; free virtual = 25881
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 175d41a97
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 3247.664 ; gain = 0.000 ; free physical = 5135 ; free virtual = 25883
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 1 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 133 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |              87  |             287  |                                            190  |
+|  Constant propagation         |            2718  |           11431  |                                            109  |
+|  Sweep                        |               8  |            4500  |                                            385  |
+|  BUFG optimization            |               1  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               1  |                                            133  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.16 . Memory (MB): peak = 3247.664 ; gain = 0.000 ; free physical = 5118 ; free virtual = 25874
+Ending Logic Optimization Task | Checksum: 177e7b37e
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:13 . Memory (MB): peak = 3247.664 ; gain = 0.000 ; free physical = 5133 ; free virtual = 25881
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 14 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 4 WE to EN ports
+Number of BRAM Ports augmented: 4 newly gated: 8 Total Ports: 28
+Ending PowerOpt Patch Enables Task | Checksum: 17e065d0d
+
+Time (s): cpu = 00:00:00.31 ; elapsed = 00:00:00.32 . Memory (MB): peak = 3654.414 ; gain = 0.000 ; free physical = 5074 ; free virtual = 25805
+Ending Power Optimization Task | Checksum: 17e065d0d
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:09 . Memory (MB): peak = 3654.414 ; gain = 406.750 ; free physical = 5117 ; free virtual = 25848
+
+Starting Final Cleanup Task
+
+Starting Logic Optimization Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Logic Optimization Task | Checksum: 25ca16b41
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:04 . Memory (MB): peak = 3654.414 ; gain = 0.000 ; free physical = 5105 ; free virtual = 25851
+Ending Final Cleanup Task | Checksum: 25ca16b41
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 3654.414 ; gain = 0.000 ; free physical = 5104 ; free virtual = 25850
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3654.414 ; gain = 0.000 ; free physical = 5104 ; free virtual = 25850
+Ending Netlist Obfuscation Task | Checksum: 25ca16b41
+
+Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3654.414 ; gain = 0.000 ; free physical = 5104 ; free virtual = 25850
+INFO: [Common 17-83] Releasing license: Implementation
+147 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:01:03 ; elapsed = 00:00:35 . Memory (MB): peak = 3654.414 ; gain = 453.297 ; free physical = 5104 ; free virtual = 25850
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.29 . Memory (MB): peak = 3654.414 ; gain = 0.000 ; free physical = 5007 ; free virtual = 25765
+INFO: [Common 17-1381] The checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.runs/impl_1/Virtex_wrapper_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:16 ; elapsed = 00:00:09 . Memory (MB): peak = 3654.414 ; gain = 0.000 ; free physical = 5021 ; free virtual = 25770
+INFO: [runtcl-4] Executing : report_drc -file Virtex_wrapper_drc_opted.rpt -pb Virtex_wrapper_drc_opted.pb -rpx Virtex_wrapper_drc_opted.rpx
+Command: report_drc -file Virtex_wrapper_drc_opted.rpt -pb Virtex_wrapper_drc_opted.pb -rpx Virtex_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.runs/impl_1/Virtex_wrapper_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx485t'
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 8 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3661.441 ; gain = 0.000 ; free physical = 4971 ; free virtual = 25718
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 16bc69fee
+
+Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.05 . Memory (MB): peak = 3661.441 ; gain = 0.000 ; free physical = 4971 ; free virtual = 25718
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3661.441 ; gain = 0.000 ; free physical = 4971 ; free virtual = 25718
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Place 30-1907] Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_iodelay_ctrl/idelayctrl_gen_1.u_idelayctrl_300_400_REPLICATED_0 replication was created for Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_iodelay_ctrl/idelayctrl_gen_1.u_idelayctrl_300_400 IDELAYCTRL
+WARNING: [Place 30-575] Sub-optimal placement for a clock-capable IO pin and MMCM pair. This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint is set to FALSE allowing your design to continue. The use of this override is highly discouraged as it may lead to very poor timing results. It is recommended that this error condition be corrected in the design.
+
+	Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_ddr3_clk_ibuf/diff_input_clk.u_ibufg_sys_clk (IBUFDS.O) is locked to IOB_X1Y276
+	Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_iodelay_ctrl/clk_ref_mmcm_gen.mmcm_i (MMCME2_ADV.CLKIN1) is provisionally placed by clockplacer on MMCME2_ADV_X1Y0
+Resolution: A dedicated routing path between the two can be used if: (a) The clock-capable IO (CCIO) is placed on a CCIO capable site (b) The MMCM is placed in the same clock region as the CCIO pin. If the IOB is driving multiple MMCMs, all MMCMs must be placed in the same clock region, one clock region above or one clock region below the IOB. Both the above conditions must be met at the same time, else it may lead to longer and less predictable clock insertion delays.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: d6276390
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 3661.441 ; gain = 0.000 ; free physical = 4964 ; free virtual = 25719
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 25079e782
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:17 . Memory (MB): peak = 3661.441 ; gain = 0.000 ; free physical = 4944 ; free virtual = 25687
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 25079e782
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:17 . Memory (MB): peak = 3661.441 ; gain = 0.000 ; free physical = 4944 ; free virtual = 25687
+Phase 1 Placer Initialization | Checksum: 25079e782
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:17 . Memory (MB): peak = 3661.441 ; gain = 0.000 ; free physical = 4944 ; free virtual = 25687
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 225f8f3a5
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:22 . Memory (MB): peak = 3661.441 ; gain = 0.000 ; free physical = 4881 ; free virtual = 25631
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: 16874015a
+
+Time (s): cpu = 00:01:13 ; elapsed = 00:00:27 . Memory (MB): peak = 3661.441 ; gain = 0.000 ; free physical = 4854 ; free virtual = 25619
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: 16874015a
+
+Time (s): cpu = 00:01:13 ; elapsed = 00:00:27 . Memory (MB): peak = 3661.441 ; gain = 0.000 ; free physical = 4853 ; free virtual = 25618
+
+Phase 2.4 Global Placement Core
+
+Phase 2.4.1 UpdateTiming Before Physical Synthesis
+Phase 2.4.1 UpdateTiming Before Physical Synthesis | Checksum: 21e7195ab
+
+Time (s): cpu = 00:04:49 ; elapsed = 00:01:32 . Memory (MB): peak = 3661.441 ; gain = 0.000 ; free physical = 3521 ; free virtual = 24583
+
+Phase 2.4.2 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 110 LUTNM shape to break, 3063 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 37, two critical 73, total 110, new lutff created 9
+INFO: [Physopt 32-1138] End 1 Pass. Optimized 1497 nets or LUTs. Breaked 110 LUTs, combined 1387 existing LUTs and moved 0 existing LUT
+INFO: [Physopt 32-76] Pass 1. Identified 10 candidate nets for fanout optimization.
+INFO: [Physopt 32-81] Processed net Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_axi_mc/axi_mc_w_channel_0/wready_reg_0. Replicated 3 times.
+INFO: [Physopt 32-81] Processed net Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_ui_top/ui_wr_data0/app_wdf_rdy. Replicated 6 times.
+INFO: [Physopt 32-81] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_READ.gen_non_fifo_r_upsizer.mi_register_slice_inst/r.r_pipe/s_ready_i_reg_0. Replicated 7 times.
+INFO: [Physopt 32-81] Processed net Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_memc_ui_top_axi/u_ui_top/ui_wr_data0/app_wdf_rdy_r_copy2. Replicated 6 times.
+INFO: [Physopt 32-81] Processed net Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[0].reg_slice_mi/r.r_pipe/s_ready_i_reg_0. Replicated 5 times.
+INFO: [Physopt 32-81] Processed net Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[2].reg_slice_mi/r.r_pipe/s_ready_i_reg_0. Replicated 6 times.
+INFO: [Physopt 32-81] Processed net Virtex_i/microblaze_0_axi_periph/s02_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_READ.gen_non_fifo_r_upsizer.mi_register_slice_inst/r.r_pipe/s_ready_i_reg_0. Replicated 6 times.
+INFO: [Physopt 32-81] Processed net Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].reg_slice_mi/r.r_pipe/s_ready_i_reg_0. Replicated 6 times.
+INFO: [Physopt 32-81] Processed net Virtex_i/microblaze_0_axi_periph/s00_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_READ.gen_non_fifo_r_upsizer.mi_register_slice_inst/r.r_pipe/s_ready_i_reg_0. Replicated 6 times.
+INFO: [Physopt 32-81] Processed net Virtex_i/microblaze_0/U0/MicroBlaze_Core_I/sync_reset. Replicated 8 times.
+INFO: [Physopt 32-232] Optimized 10 nets. Created 59 new instances.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 10 nets or cells. Created 59 new cells, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00.27 ; elapsed = 00:00:00.29 . Memory (MB): peak = 3661.441 ; gain = 0.000 ; free physical = 3515 ; free virtual = 24569
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-1123] No candidate cells found for Shift Register to Pipeline optimization
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-677] No candidate cells for Shift Register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-526] No candidate cells for BRAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-846] No candidate cells for URAM register optimization found in the design
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3661.441 ; gain = 0.000 ; free physical = 3514 ; free virtual = 24568
+INFO: [Physopt 32-64] No nets found for fanout-optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-68] No nets found for critical-cell optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3661.441 ; gain = 0.000 ; free physical = 3514 ; free virtual = 24568
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |          110  |           1387  |                  1497  |           0  |           1  |  00:00:02  |
+|  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Very High Fanout                                 |           59  |              0  |                    10  |           0  |           1  |  00:00:02  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Fanout                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Critical Cell                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |          169  |           1387  |                  1507  |           0  |          11  |  00:00:04  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.4.2 Physical Synthesis In Placer | Checksum: 1e3f3ea47
+
+Time (s): cpu = 00:05:10 ; elapsed = 00:01:43 . Memory (MB): peak = 3661.441 ; gain = 0.000 ; free physical = 3506 ; free virtual = 24561
+Phase 2.4 Global Placement Core | Checksum: 7fd48ede
+
+Time (s): cpu = 00:07:20 ; elapsed = 00:02:07 . Memory (MB): peak = 3661.441 ; gain = 0.000 ; free physical = 3294 ; free virtual = 24351
+Phase 2 Global Placement | Checksum: 7fd48ede
+
+Time (s): cpu = 00:07:20 ; elapsed = 00:02:07 . Memory (MB): peak = 3661.441 ; gain = 0.000 ; free physical = 3322 ; free virtual = 24379
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 1060e16d3
+
+Time (s): cpu = 00:07:36 ; elapsed = 00:02:13 . Memory (MB): peak = 3661.441 ; gain = 0.000 ; free physical = 3063 ; free virtual = 24120
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1a877ecac
+
+Time (s): cpu = 00:08:08 ; elapsed = 00:02:28 . Memory (MB): peak = 3661.441 ; gain = 0.000 ; free physical = 2744 ; free virtual = 23914
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 19a2b150a
+
+Time (s): cpu = 00:08:11 ; elapsed = 00:02:29 . Memory (MB): peak = 3661.441 ; gain = 0.000 ; free physical = 2725 ; free virtual = 23896
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 16d3d7e28
+
+Time (s): cpu = 00:08:11 ; elapsed = 00:02:29 . Memory (MB): peak = 3661.441 ; gain = 0.000 ; free physical = 2724 ; free virtual = 23895
+
+Phase 3.5 Fast Optimization
+Phase 3.5 Fast Optimization | Checksum: 12e23118a
+
+Time (s): cpu = 00:08:55 ; elapsed = 00:02:57 . Memory (MB): peak = 3661.441 ; gain = 0.000 ; free physical = 2589 ; free virtual = 23784
+
+Phase 3.6 Small Shape Detail Placement
+Phase 3.6 Small Shape Detail Placement | Checksum: 177eb6617
+
+Time (s): cpu = 00:09:36 ; elapsed = 00:03:36 . Memory (MB): peak = 3661.441 ; gain = 0.000 ; free physical = 2190 ; free virtual = 23506
+
+Phase 3.7 Re-assign LUT pins
+Phase 3.7 Re-assign LUT pins | Checksum: 15b4b634f
+
+Time (s): cpu = 00:09:40 ; elapsed = 00:03:41 . Memory (MB): peak = 3661.441 ; gain = 0.000 ; free physical = 2167 ; free virtual = 23500
+
+Phase 3.8 Pipeline Register Optimization
+Phase 3.8 Pipeline Register Optimization | Checksum: d68bcdfb
+
+Time (s): cpu = 00:09:41 ; elapsed = 00:03:42 . Memory (MB): peak = 3661.441 ; gain = 0.000 ; free physical = 2166 ; free virtual = 23500
+
+Phase 3.9 Fast Optimization
+Phase 3.9 Fast Optimization | Checksum: 13b795990
+
+Time (s): cpu = 00:10:37 ; elapsed = 00:04:09 . Memory (MB): peak = 3661.441 ; gain = 0.000 ; free physical = 1855 ; free virtual = 23176
+Phase 3 Detail Placement | Checksum: 13b795990
+
+Time (s): cpu = 00:10:37 ; elapsed = 00:04:10 . Memory (MB): peak = 3661.441 ; gain = 0.000 ; free physical = 1855 ; free virtual = 23176
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 1c8e9d4b3
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 8 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.943 | TNS=-2312.073 |
+Phase 1 Physical Synthesis Initialization | Checksum: 196405106
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:03 . Memory (MB): peak = 3684.262 ; gain = 0.000 ; free physical = 1660 ; free virtual = 22920
+INFO: [Place 46-56] BUFG insertion identified 0 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to Illegal Netlist: 0.
+Ending Physical Synthesis Task | Checksum: 18434b3a5
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:04 . Memory (MB): peak = 3684.262 ; gain = 0.000 ; free physical = 1651 ; free virtual = 22922
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1c8e9d4b3
+
+Time (s): cpu = 00:11:30 ; elapsed = 00:04:33 . Memory (MB): peak = 3684.262 ; gain = 22.820 ; free physical = 1649 ; free virtual = 22920
+
+Phase 4.1.1.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-0.812. For the most accurate timing information please run report_timing.
+Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: 252001ac2
+
+Time (s): cpu = 00:12:16 ; elapsed = 00:05:17 . Memory (MB): peak = 3684.262 ; gain = 22.820 ; free physical = 1133 ; free virtual = 22448
+
+Time (s): cpu = 00:12:16 ; elapsed = 00:05:17 . Memory (MB): peak = 3684.262 ; gain = 22.820 ; free physical = 1133 ; free virtual = 22448
+Phase 4.1 Post Commit Optimization | Checksum: 252001ac2
+
+Time (s): cpu = 00:12:16 ; elapsed = 00:05:18 . Memory (MB): peak = 3684.262 ; gain = 22.820 ; free physical = 1136 ; free virtual = 22449
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 252001ac2
+
+Time (s): cpu = 00:12:17 ; elapsed = 00:05:19 . Memory (MB): peak = 3684.262 ; gain = 22.820 ; free physical = 1141 ; free virtual = 22454
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ____________________________________________________
+|           | Global Congestion | Short Congestion  |
+| Direction | Region Size       | Region Size       |
+|___________|___________________|___________________|
+|      North|                2x2|                2x2|
+|___________|___________________|___________________|
+|      South|                1x1|                2x2|
+|___________|___________________|___________________|
+|       East|                4x4|                2x2|
+|___________|___________________|___________________|
+|       West|                1x1|                1x1|
+|___________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: 252001ac2
+
+Time (s): cpu = 00:12:18 ; elapsed = 00:05:19 . Memory (MB): peak = 3684.262 ; gain = 22.820 ; free physical = 1094 ; free virtual = 22407
+Phase 4.3 Placer Reporting | Checksum: 252001ac2
+
+Time (s): cpu = 00:12:18 ; elapsed = 00:05:20 . Memory (MB): peak = 3684.262 ; gain = 22.820 ; free physical = 1011 ; free virtual = 22322
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3684.262 ; gain = 0.000 ; free physical = 1006 ; free virtual = 22317
+
+Time (s): cpu = 00:12:19 ; elapsed = 00:05:20 . Memory (MB): peak = 3684.262 ; gain = 22.820 ; free physical = 1006 ; free virtual = 22317
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 2782ee359
+
+Time (s): cpu = 00:12:19 ; elapsed = 00:05:20 . Memory (MB): peak = 3684.262 ; gain = 22.820 ; free physical = 971 ; free virtual = 22281
+Ending Placer Task | Checksum: 1891e0cc9
+
+Time (s): cpu = 00:12:19 ; elapsed = 00:05:20 . Memory (MB): peak = 3684.262 ; gain = 22.820 ; free physical = 922 ; free virtual = 22222
+INFO: [Common 17-83] Releasing license: Implementation
+204 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:12:25 ; elapsed = 00:05:23 . Memory (MB): peak = 3684.262 ; gain = 22.820 ; free physical = 1049 ; free virtual = 22349
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:21 ; elapsed = 00:00:08 . Memory (MB): peak = 3700.270 ; gain = 8.004 ; free physical = 781 ; free virtual = 22162
+INFO: [Common 17-1381] The checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.runs/impl_1/Virtex_wrapper_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:35 ; elapsed = 00:00:17 . Memory (MB): peak = 3708.273 ; gain = 24.012 ; free physical = 803 ; free virtual = 22136
+INFO: [runtcl-4] Executing : report_io -file Virtex_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00.65 ; elapsed = 00:00:00.79 . Memory (MB): peak = 3708.273 ; gain = 0.000 ; free physical = 757 ; free virtual = 22091
+INFO: [runtcl-4] Executing : report_utilization -file Virtex_wrapper_utilization_placed.rpt -pb Virtex_wrapper_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file Virtex_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00.41 ; elapsed = 00:00:00.54 . Memory (MB): peak = 3708.273 ; gain = 0.000 ; free physical = 804 ; free virtual = 22139
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx485t'
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:13 . Memory (MB): peak = 3708.273 ; gain = 0.000 ; free physical = 378 ; free virtual = 21728
+INFO: [Vivado_Tcl 4-1435] PhysOpt_Tcl_Interface Runtime Before Starting Physical Synthesis Task | CPU: 38.12s |  WALL: 13.14s
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3708.273 ; gain = 0.000 ; free physical = 377 ; free virtual = 21727
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 8 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.812 | TNS=-794.604 |
+Phase 1 Physical Synthesis Initialization | Checksum: 160ef6cff
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:08 . Memory (MB): peak = 3708.273 ; gain = 0.000 ; free physical = 274 ; free virtual = 21659
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.812 | TNS=-794.604 |
+
+Phase 2 DSP Register Optimization
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Phase 2 DSP Register Optimization | Checksum: 160ef6cff
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 3708.273 ; gain = 0.000 ; free physical = 270 ; free virtual = 21654
+
+Phase 3 Critical Path Optimization
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.812 | TNS=-794.604 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[442].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[13].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[442]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[442]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.812 | TNS=-794.717 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[444].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[13].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[444]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[444]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.812 | TNS=-794.905 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[447].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[13].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[447]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[447]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.789 | TNS=-795.120 |
+INFO: [Physopt 32-702] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[440]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_ddr3_infrastructure/clk_pll_i. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.write_addr_inst/GEN_CMD_QUEUE.cmd_queue/M_AXI_WDATA_I191_out.  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.write_addr_inst/GEN_CMD_QUEUE.cmd_queue/WORD_LANE[13].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[447]_i_3
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.write_addr_inst/GEN_CMD_QUEUE.cmd_queue/M_AXI_WDATA_I191_out. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.781 | TNS=-795.103 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[396].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[12].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[396]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[396]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.781 | TNS=-795.291 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[397].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[12].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[397]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[397]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.781 | TNS=-795.404 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[399].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[12].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[399]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[399]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.769 | TNS=-795.619 |
+INFO: [Physopt 32-710] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[13].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[447]_i_1_n_0. Critical path length was reduced through logic transformation on cell Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[13].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[447]_i_1_comp.
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.write_addr_inst/GEN_CMD_QUEUE.cmd_queue/M_AXI_WDATA_I191_out. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.758 | TNS=-795.192 |
+INFO: [Physopt 32-702] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[392]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.write_addr_inst/GEN_CMD_QUEUE.cmd_queue/M_AXI_WDATA_I1152_out.  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.write_addr_inst/GEN_CMD_QUEUE.cmd_queue/WORD_LANE[12].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[399]_i_3
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.write_addr_inst/GEN_CMD_QUEUE.cmd_queue/M_AXI_WDATA_I1152_out. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.754 | TNS=-795.008 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[24].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[24]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[24]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.754 | TNS=-795.223 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[26].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[26]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[26]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.754 | TNS=-795.428 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[27].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[27]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[27]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.754 | TNS=-795.645 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[28].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[28]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[28]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.754 | TNS=-795.949 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[425].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[13].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[425]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[425]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.754 | TNS=-796.137 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[426].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[13].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[426]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[426]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.754 | TNS=-796.242 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[427].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[13].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[427]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[427]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.752 | TNS=-796.355 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[31].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[31]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[31]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.751 | TNS=-796.642 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[42].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[1].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[42]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[42]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.751 | TNS=-796.820 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[80].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[2].USE_ALWAYS_PACKER.BYTE_LANE[2].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[80]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[80]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.750 | TNS=-796.901 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[10].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[10]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[10]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.750 | TNS=-797.178 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[11].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[11]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[11]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.750 | TNS=-797.339 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[13].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[13]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[13]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.750 | TNS=-797.500 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[14].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[14]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[14]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.750 | TNS=-797.649 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[9].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[0].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[9]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[9]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.749 | TNS=-797.901 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[388].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[12].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[388]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[388]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.749 | TNS=-798.148 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[391].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[12].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[391]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[391]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.748 | TNS=-798.332 |
+INFO: [Physopt 32-702] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[392]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_ddr3_infrastructure/clk_pll_i. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.write_addr_inst/GEN_CMD_QUEUE.cmd_queue/M_AXI_WDATA_I1152_out. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.write_addr_inst/GEN_CMD_QUEUE.cmd_queue/s_axi_wvalid_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/pop_si_data. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_write.wdata_router_w/wrouter_aw_fifo/s_axi_wready[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_write.wdata_router_w/wrouter_aw_fifo/gen_srls[0].gen_rep[3].srl_nx1/storage_data1_reg[1]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_write.wdata_router_w/wrouter_aw_fifo/gen_srls[0].gen_rep[3].srl_nx1/s_axi_wready[1]_INST_0_i_5_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_write.wdata_router_w/wrouter_aw_fifo/gen_srls[0].gen_rep[3].srl_nx1/s_axi_wready[1]_INST_0_i_6_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net Virtex_i/microblaze_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[4].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/wr_tmp_wready[0]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net Virtex_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/s_axi_wready. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net Virtex_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/s_axi_wready_INST_0_i_3_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net Virtex_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/s_axi_wready_INST_0_i_4_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net Virtex_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/goreg_dm.dout_i_reg[29]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net Virtex_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/goreg_dm.dout_i_reg[12]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net Virtex_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/current_word_1_reg[4]_0[1]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[12].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[399]_i_1_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net Virtex_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_data_inst/Q[1]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.748 | TNS=-798.332 |
+Phase 3 Critical Path Optimization | Checksum: 17d31f490
+
+Time (s): cpu = 00:01:59 ; elapsed = 00:00:30 . Memory (MB): peak = 3708.273 ; gain = 0.000 ; free physical = 3256 ; free virtual = 25421
+
+Phase 4 Critical Path Optimization
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.748 | TNS=-798.332 |
+INFO: [Physopt 32-702] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[392]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_ddr3_infrastructure/clk_pll_i. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[12].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[399]_i_1_n_0. Critical path length was reduced through logic transformation on cell Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[12].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I[399]_i_1_comp.
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.write_addr_inst/GEN_CMD_QUEUE.cmd_queue/M_AXI_WDATA_I1152_out. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.740 | TNS=-797.897 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[288].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[9].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[288]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[288]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.740 | TNS=-798.083 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[291].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[9].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[291]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[291]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.740 | TNS=-798.270 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[293].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[9].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[293]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[293]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.740 | TNS=-798.463 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[295].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[9].USE_ALWAYS_PACKER.BYTE_LANE[0].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[295]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[295]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.739 | TNS=-798.649 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[171].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[5].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[171]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[171]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.739 | TNS=-798.924 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[172].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[5].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[172]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[172]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.739 | TNS=-799.190 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[173].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[5].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[173]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[173]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.739 | TNS=-799.439 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[174].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[5].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[174]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[174]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.738 | TNS=-799.759 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[300].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[9].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[300]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[300]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.738 | TNS=-799.774 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[302].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[9].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[302]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[302]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.738 | TNS=-799.872 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[505].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[15].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[505]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[505]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.738 | TNS=-799.897 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[509].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[15].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[509]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[509]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.735 | TNS=-799.928 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[234].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[7].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[234]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[234]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.735 | TNS=-800.137 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[235].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[7].USE_ALWAYS_PACKER.BYTE_LANE[1].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[235]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[235]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.733 | TNS=-800.474 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[344].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[10].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[344]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[344]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.733 | TNS=-800.885 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[345].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[10].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[345]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[345]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.733 | TNS=-801.197 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[346].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[10].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[346]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[346]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.733 | TNS=-801.564 |
+INFO: [Physopt 32-663] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[349].  Re-placed instance Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/WORD_LANE[10].USE_ALWAYS_PACKER.BYTE_LANE[3].USE_RTL_DATA.USE_REGISTER.M_AXI_WDATA_I_reg[349]
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[349]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.733 | TNS=-801.868 |
+INFO: [Physopt 32-702] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_non_fifo_w_upsizer.write_data_inst/m_axi_wdata[350]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_ddr3_infrastructure/clk_pll_i. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 17 pins.
+INFO: [Physopt 32-735] Processed net Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.write_addr_inst/GEN_CMD_QUEUE.cmd_queue/M_AXI_WDATA_I1214_out. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.733 | TNS=-800.992 |
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.733 | TNS=-800.992 |
+Phase 4 Critical Path Optimization | Checksum: 208186e71
+
+Time (s): cpu = 00:02:58 ; elapsed = 00:00:41 . Memory (MB): peak = 3708.273 ; gain = 0.000 ; free physical = 2118 ; free virtual = 25396
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3708.273 ; gain = 0.000 ; free physical = 2121 ; free virtual = 25399
+INFO: [Physopt 32-603] Post Physical Optimization Timing Summary | WNS=-0.733 | TNS=-800.992 |
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization   |  WNS Gain (ns)  |  TNS Gain (ns)  |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  DSP Register   |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Critical Path  |          0.079  |         -6.388  |            0  |              0  |                    46  |           0  |           2  |  00:00:32  |
+|  Total          |          0.079  |         -6.388  |            0  |              0  |                    46  |           0  |           3  |  00:00:32  |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3708.273 ; gain = 0.000 ; free physical = 2123 ; free virtual = 25404
+Ending Physical Synthesis Task | Checksum: 168781bd1
+
+Time (s): cpu = 00:02:59 ; elapsed = 00:00:42 . Memory (MB): peak = 3708.273 ; gain = 0.000 ; free physical = 2120 ; free virtual = 25401
+INFO: [Common 17-83] Releasing license: Implementation
+385 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+phys_opt_design: Time (s): cpu = 00:03:36 ; elapsed = 00:00:55 . Memory (MB): peak = 3708.273 ; gain = 0.000 ; free physical = 2156 ; free virtual = 25437
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:25 ; elapsed = 00:00:11 . Memory (MB): peak = 3708.273 ; gain = 0.000 ; free physical = 1412 ; free virtual = 24763
+INFO: [Common 17-1381] The checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.runs/impl_1/Virtex_wrapper_physopt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:38 ; elapsed = 00:00:19 . Memory (MB): peak = 3708.273 ; gain = 0.000 ; free physical = 801 ; free virtual = 24096
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx485t'
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 8 CPUs
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: 7df01406 ConstDB: 0 ShapeSum: 69ee1352 RouteDB: 0
+Post Restoration Checksum: NetGraph: ce639643 NumContArr: 3ecadc89 Constraints: 0 Timing: 0
+Phase 1 Build RT Design | Checksum: 10d2e72cc
+
+Time (s): cpu = 00:02:33 ; elapsed = 00:01:27 . Memory (MB): peak = 3877.344 ; gain = 161.066 ; free physical = 278 ; free virtual = 20224
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 10d2e72cc
+
+Time (s): cpu = 00:02:34 ; elapsed = 00:01:28 . Memory (MB): peak = 3921.422 ; gain = 205.145 ; free physical = 288 ; free virtual = 20164
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 10d2e72cc
+
+Time (s): cpu = 00:02:34 ; elapsed = 00:01:28 . Memory (MB): peak = 3921.422 ; gain = 205.145 ; free physical = 266 ; free virtual = 20155
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 28a892eee
+
+Time (s): cpu = 00:03:29 ; elapsed = 00:01:53 . Memory (MB): peak = 3995.180 ; gain = 278.902 ; free physical = 5076 ; free virtual = 24832
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.506 | TNS=-427.138| WHS=-0.473 | THS=-2077.082|
+
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.0082625 %
+  Global Horizontal Routing Utilization  = 0.000844688 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 47727
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 47727
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 1
+
+Phase 2 Router Initialization | Checksum: 20bfac18e
+
+Time (s): cpu = 00:03:58 ; elapsed = 00:02:01 . Memory (MB): peak = 4020.445 ; gain = 304.168 ; free physical = 4955 ; free virtual = 24713
+
+Phase 3 Initial Routing
+
+Phase 3.1 Global Routing
+Phase 3.1 Global Routing | Checksum: 20bfac18e
+
+Time (s): cpu = 00:03:58 ; elapsed = 00:02:01 . Memory (MB): peak = 4020.445 ; gain = 304.168 ; free physical = 4954 ; free virtual = 24713
+Phase 3 Initial Routing | Checksum: 1af598078
+
+Time (s): cpu = 00:04:34 ; elapsed = 00:02:11 . Memory (MB): peak = 4020.445 ; gain = 304.168 ; free physical = 4705 ; free virtual = 24467
+INFO: [Route 35-580] Design has 253 pins with tight setup and hold constraints.
+
+The top 5 pins with tight setup and hold constraints:
+
++====================+===================+================================================================================================================================================================================================================================================================+
+| Launch Setup Clock | Launch Hold Clock | Pin                                                                                                                                                                                                                                                            |
++====================+===================+================================================================================================================================================================================================================================================================+
+| clk_pll_i          | clk_pll_i         | Virtex_i/microblaze_0_axi_periph/m02_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_fb_i_reg/D |
+| clk_pll_i          | clk_pll_i         | Virtex_i/microblaze_0_axi_periph/m02_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i_reg/D    |
+| clk_pll_i          | clk_pll_i         | Virtex_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_READ.gen_non_fifo_r_upsizer.mi_register_slice_inst/r.r_pipe/m_payload_i_reg[181]/D                                                                |
+| clk_pll_i          | clk_pll_i         | Virtex_i/microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.Use_AXI_Write.write_data_stall_i_reg/D                                                     |
+| clk_pll_i          | clk_pll_i         | Virtex_i/microblaze_0_axi_periph/m02_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_i_reg/D   |
++--------------------+-------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+File with complete list of pins: tight_setup_hold_pins.txt
+
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 5794
+ Number of Nodes with overlaps = 543
+ Number of Nodes with overlaps = 134
+ Number of Nodes with overlaps = 62
+ Number of Nodes with overlaps = 46
+ Number of Nodes with overlaps = 27
+ Number of Nodes with overlaps = 14
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.048 | TNS=-1190.037| WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 10d6a4969
+
+Time (s): cpu = 00:06:03 ; elapsed = 00:03:08 . Memory (MB): peak = 4020.445 ; gain = 304.168 ; free physical = 4059 ; free virtual = 23877
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 168
+ Number of Nodes with overlaps = 20
+ Number of Nodes with overlaps = 14
+ Number of Nodes with overlaps = 8
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.211 | TNS=-1226.512| WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 142550204
+
+Time (s): cpu = 00:06:16 ; elapsed = 00:03:19 . Memory (MB): peak = 4020.445 ; gain = 304.168 ; free physical = 4991 ; free virtual = 24799
+Phase 4 Rip-up And Reroute | Checksum: 142550204
+
+Time (s): cpu = 00:06:16 ; elapsed = 00:03:19 . Memory (MB): peak = 4020.445 ; gain = 304.168 ; free physical = 4989 ; free virtual = 24798
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 1cdaf6834
+
+Time (s): cpu = 00:06:26 ; elapsed = 00:03:22 . Memory (MB): peak = 4020.445 ; gain = 304.168 ; free physical = 4946 ; free virtual = 24756
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.955 | TNS=-976.102| WHS=N/A    | THS=N/A    |
+
+ Number of Nodes with overlaps = 0
+Phase 5.1 Delay CleanUp | Checksum: 1dfca9a17
+
+Time (s): cpu = 00:06:27 ; elapsed = 00:03:23 . Memory (MB): peak = 4020.445 ; gain = 304.168 ; free physical = 4934 ; free virtual = 24743
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 1dfca9a17
+
+Time (s): cpu = 00:06:28 ; elapsed = 00:03:23 . Memory (MB): peak = 4020.445 ; gain = 304.168 ; free physical = 4932 ; free virtual = 24742
+Phase 5 Delay and Skew Optimization | Checksum: 1dfca9a17
+
+Time (s): cpu = 00:06:28 ; elapsed = 00:03:23 . Memory (MB): peak = 4020.445 ; gain = 304.168 ; free physical = 4929 ; free virtual = 24738
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 1c7ee55ba
+
+Time (s): cpu = 00:06:40 ; elapsed = 00:03:27 . Memory (MB): peak = 4020.445 ; gain = 304.168 ; free physical = 4870 ; free virtual = 24680
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.935 | TNS=-971.076| WHS=0.053  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 1c7ee55ba
+
+Time (s): cpu = 00:06:40 ; elapsed = 00:03:27 . Memory (MB): peak = 4020.445 ; gain = 304.168 ; free physical = 4870 ; free virtual = 24680
+Phase 6 Post Hold Fix | Checksum: 1c7ee55ba
+
+Time (s): cpu = 00:06:41 ; elapsed = 00:03:27 . Memory (MB): peak = 4020.445 ; gain = 304.168 ; free physical = 4870 ; free virtual = 24680
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 3.29597 %
+  Global Horizontal Routing Utilization  = 3.82245 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 81.982%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 95.4955%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+   INT_R_X119Y292 -> INT_R_X119Y292
+   INT_L_X126Y289 -> INT_L_X126Y289
+   INT_R_X105Y286 -> INT_R_X105Y286
+   INT_R_X119Y286 -> INT_R_X119Y286
+   INT_L_X124Y286 -> INT_L_X124Y286
+East Dir 2x2 Area, Max Cong = 85.2941%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+   INT_L_X118Y290 -> INT_R_X119Y291
+   INT_L_X126Y286 -> INT_R_X127Y287
+West Dir 1x1 Area, Max Cong = 91.1765%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+   INT_L_X128Y291 -> INT_L_X128Y291
+   INT_L_X132Y269 -> INT_L_X132Y269
+   INT_L_X126Y246 -> INT_L_X126Y246
+   INT_L_X124Y245 -> INT_L_X124Y245
+
+------------------------------
+Reporting congestion hotspots
+------------------------------
+Direction: North
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: South
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 1
+Direction: East
+----------------
+Congested clusters found at Level 1
+Effective congestion level: 2 Aspect Ratio: 0.75 Sparse Ratio: 1.75
+Direction: West
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 1
+
+Phase 7 Route finalize | Checksum: 211ed0b28
+
+Time (s): cpu = 00:06:42 ; elapsed = 00:03:28 . Memory (MB): peak = 4020.445 ; gain = 304.168 ; free physical = 4864 ; free virtual = 24673
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 211ed0b28
+
+Time (s): cpu = 00:06:42 ; elapsed = 00:03:28 . Memory (MB): peak = 4020.445 ; gain = 304.168 ; free physical = 4856 ; free virtual = 24665
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 1642cd559
+
+Time (s): cpu = 00:06:50 ; elapsed = 00:03:32 . Memory (MB): peak = 4036.453 ; gain = 320.176 ; free physical = 4767 ; free virtual = 24576
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-0.935 | TNS=-971.076| WHS=0.053  | THS=0.000  |
+
+WARNING: [Route 35-328] Router estimated timing not met.
+Resolution: For a complete and accurate timing signoff, report_timing_summary must be run after route_design. Alternatively, route_design can be run with the -timing_summary option to enable a complete timing signoff at the end of route_design.
+Phase 10 Post Router Timing | Checksum: 1642cd559
+
+Time (s): cpu = 00:07:01 ; elapsed = 00:03:36 . Memory (MB): peak = 4036.453 ; gain = 320.176 ; free physical = 4777 ; free virtual = 24595
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:07:01 ; elapsed = 00:03:36 . Memory (MB): peak = 4036.453 ; gain = 320.176 ; free physical = 4892 ; free virtual = 24710
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+404 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:07:11 ; elapsed = 00:03:41 . Memory (MB): peak = 4036.453 ; gain = 328.180 ; free physical = 4892 ; free virtual = 24710
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:20 ; elapsed = 00:00:08 . Memory (MB): peak = 4036.453 ; gain = 0.000 ; free physical = 4570 ; free virtual = 24472
+INFO: [Common 17-1381] The checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.runs/impl_1/Virtex_wrapper_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:34 ; elapsed = 00:00:16 . Memory (MB): peak = 4044.457 ; gain = 8.004 ; free physical = 4395 ; free virtual = 24237
+INFO: [runtcl-4] Executing : report_drc -file Virtex_wrapper_drc_routed.rpt -pb Virtex_wrapper_drc_routed.pb -rpx Virtex_wrapper_drc_routed.rpx
+Command: report_drc -file Virtex_wrapper_drc_routed.rpt -pb Virtex_wrapper_drc_routed.pb -rpx Virtex_wrapper_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.runs/impl_1/Virtex_wrapper_drc_routed.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 4052.461 ; gain = 8.004 ; free physical = 4335 ; free virtual = 24178
+INFO: [runtcl-4] Executing : report_methodology -file Virtex_wrapper_methodology_drc_routed.rpt -pb Virtex_wrapper_methodology_drc_routed.pb -rpx Virtex_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file Virtex_wrapper_methodology_drc_routed.rpt -pb Virtex_wrapper_methodology_drc_routed.pb -rpx Virtex_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 8 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file /home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.runs/impl_1/Virtex_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:01:16 ; elapsed = 00:00:20 . Memory (MB): peak = 4052.461 ; gain = 0.000 ; free physical = 4241 ; free virtual = 24086
+INFO: [runtcl-4] Executing : report_power -file Virtex_wrapper_power_routed.rpt -pb Virtex_wrapper_power_summary_routed.pb -rpx Virtex_wrapper_power_routed.rpx
+Command: report_power -file Virtex_wrapper_power_routed.rpt -pb Virtex_wrapper_power_summary_routed.pb -rpx Virtex_wrapper_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+416 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:57 ; elapsed = 00:00:18 . Memory (MB): peak = 4088.480 ; gain = 36.020 ; free physical = 4065 ; free virtual = 23944
+INFO: [runtcl-4] Executing : report_route_status -file Virtex_wrapper_route_status.rpt -pb Virtex_wrapper_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -report_unconstrained -file Virtex_wrapper_timing_summary_routed.rpt -pb Virtex_wrapper_timing_summary_routed.pb -rpx Virtex_wrapper_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file Virtex_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file Virtex_wrapper_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file Virtex_wrapper_bus_skew_routed.rpt -pb Virtex_wrapper_bus_skew_routed.pb -rpx Virtex_wrapper_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+Command: write_bitstream -force Virtex_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx485t'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 8 threads
+WARNING: [DRC CFGBVS-1] Missing CFGBVS and CONFIG_VOLTAGE Design Properties: Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A1' of cell Virtex_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin Virtex_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A6)+((~A6)*(~A5)*A3)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A1' of cell Virtex_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin Virtex_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A3)+((~A3)*(~A6)*A4)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A1' of cell Virtex_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin Virtex_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A5)+((~A5)*(~A6)*A3)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A1' of cell Virtex_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin Virtex_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A5)+((~A5)*(~A2)*A4)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A2' of cell Virtex_i/microblaze_0_axi_periph/m02_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin Virtex_i/microblaze_0_axi_periph/m02_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A5)+((~A5)*(~A1)*A4)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A2' of cell Virtex_i/microblaze_0_axi_periph/m02_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin Virtex_i/microblaze_0_axi_periph/m02_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A4)+((~A4)*(~A3)*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A2' of cell Virtex_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin Virtex_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A6)+((~A6)*(~A5)*A3)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A3' of cell Virtex_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin Virtex_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A5)+((~A5)*(~A6)*A4)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A3' of cell Virtex_i/microblaze_0_axi_periph/m02_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin Virtex_i/microblaze_0_axi_periph/m02_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A5)+((~A5)*(~A6)*A4)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A4' of cell Virtex_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin Virtex_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A1)+((~A1)*(~A6)*A2)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A5' of cell Virtex_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin Virtex_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A6)+((~A6)*(~A4)*A3)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A6' of cell Virtex_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin Virtex_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A1)+((~A1)*(~A3)*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC REQP-1709] Clock output buffering: PLLE2_ADV connectivity violation. The signal Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_ddr3_infrastructure/pll_clk3_out on the Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_ddr3_infrastructure/plle2_i/CLKOUT3 pin of Virtex_i/mig_7series_0/u_Virtex_mig_7series_0_0_mig/u_ddr3_infrastructure/plle2_i does not drive the same kind of BUFFER load as the other CLKOUT pins. Routing from the different buffer types will not be phase aligned.
+WARNING: [DRC RTSTAT-10] No routable loads: 132 net(s) have no routable loads. The problem bus(es) and/or net(s) are Virtex_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, Virtex_i/microblaze_0_axi_periph/m02_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, Virtex_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, Virtex_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, Virtex_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, Virtex_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, Virtex_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, Virtex_i/microblaze_0_axi_periph/m02_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, Virtex_i/microblaze_0_axi_periph/m02_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, Virtex_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, Virtex_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, Virtex_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, Virtex_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], Virtex_i/microblaze_0_axi_periph/m02_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], Virtex_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0]... and (the first 15 of 84 listed).
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 15 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 8 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./Virtex_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Common 17-83] Releasing license: Implementation
+11 Infos, 15 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:02:04 ; elapsed = 00:00:54 . Memory (MB): peak = 4635.930 ; gain = 547.449 ; free physical = 3834 ; free virtual = 23759
+INFO: [Common 17-206] Exiting Vivado at Sat Dec 30 20:46:15 2023...

@@ -1,0 +1,48 @@
+#include "xparameters.h"
+#include "xgpio.h"
+#include "xil_printf.h"
+#include "xil_types.h"
+
+#define LED_DEVICE_ID XPAR_AXI_GPIO_LED_DEVICE_ID
+#define BTN_DEVICE_ID XPAR_AXI_GPIO_BUTTONS_DEVICE_ID
+#define LED_DELAY 30000000
+
+XGpio GpioLed, GpioBtn;
+
+int main() {
+    int status;
+    int btnValue;
+    u32 ledValue = 0;
+
+    // Initialize LED GPIO
+    status = XGpio_Initialize(&GpioLed, LED_DEVICE_ID);
+    if (status != XST_SUCCESS) {
+        xil_printf("LED GPIO Initialization Failed\r\n");
+        return XST_FAILURE;
+    }
+
+    // Initialize Button GPIO
+    status = XGpio_Initialize(&GpioBtn, BTN_DEVICE_ID);
+    if (status != XST_SUCCESS) {
+        xil_printf("Button GPIO Initialization Failed\r\n");
+        return XST_FAILURE;
+    }
+
+    // Set LED GPIO as output and Button GPIO as input
+    XGpio_SetDataDirection(&GpioLed, 1, 0x0);
+    XGpio_SetDataDirection(&GpioBtn, 1, 0xFFFFFFFF);
+
+    while (1) {
+        // Read button state
+        btnValue = XGpio_DiscreteRead(&GpioBtn, 1);
+
+        // Toggle LEDs based on button state
+        if (btnValue != 0) { // If any button is pressed
+            ledValue = ~ledValue; // Toggle LED value
+            XGpio_DiscreteWrite(&GpioLed, 1, ledValue);
+            for (int i = 0; i < LED_DELAY; i++); // Simple delay
+        }
+    }
+
+    return XST_SUCCESS;
+}

@@ -3,23 +3,344 @@
     with args -log Virtex_auto_pc_4.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Virtex_auto_pc_4.tcl
 
 
-
 ****** Vivado v2022.2 (64-bit)
-  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
   **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 
 source Virtex_auto_pc_4.tcl -notrace
-create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 417.625 ; gain = 79.848
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1321.648 ; gain = 0.023 ; free physical = 2961 ; free virtual = 25125
 INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Virtex_auto_pc_4
 Command: synth_design -top Virtex_auto_pc_4 -part xc7vx485tffg1761-2 -incremental_mode off -mode out_of_context
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
-WARNING: [Common 17-348] Failed to get the license for feature 'Synthesis' and/or device 'xc7vx485t'. Explanation: The license feature Synthesis could not be found.
-Resolution: Check the status of your licenses in the Vivado License Manager. For debug help search Xilinx Support for "Licensing FAQ". 
-1 Infos, 1 Warnings, 0 Critical Warnings and 1 Errors encountered.
-synth_design failed
-ERROR: [Common 17-345] A valid license was not found for feature 'Synthesis' and/or device 'xc7vx485t'. Please run the Vivado License Manager for assistance in determining
-which features and devices are licensed for your system.
-Resolution: Check the status of your licenses in the Vivado License Manager. For debug help search Xilinx Support for "Licensing FAQ". If you are using a license server, verify that the license server is up and running a version of the xilinx daemon that is compatible with the version of Xilinx software that you are using. Note: Vivado 2021.1 and later versions require upgrading your license server tools to the Flex 11.17.2.0 versions. Please confirm with your license admin that the correct version of the license server tools are installed.
-INFO: [Common 17-206] Exiting Vivado at Fri Dec 22 12:06:47 2023...
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 80429
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/tools/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2100.297 ; gain = 372.707 ; free physical = 289 ; free virtual = 22432
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1356.671; parent = 1210.492; children = 146.179
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3107.035; parent = 2106.238; children = 1000.797
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Virtex_auto_pc_4' [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_pc_4/synth/Virtex_auto_pc_4.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axi_protocol_converter_v2_1_27_axi_protocol_converter' [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ipshared/aeb3/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4807]
+INFO: [Synth 8-6155] done synthesizing module 'axi_protocol_converter_v2_1_27_axi_protocol_converter' (0#1) [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ipshared/aeb3/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4807]
+INFO: [Synth 8-6155] done synthesizing module 'Virtex_auto_pc_4' (0#1) [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_pc_4/synth/Virtex_auto_pc_4.v:53]
+WARNING: [Synth 8-7129] Port aclk in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aresetn in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awid[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[7] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[6] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[5] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[4] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[3] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[2] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[1] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awsize[2] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awsize[1] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awsize[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awburst[1] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awburst[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlock[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awcache[3] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awcache[2] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awcache[1] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awcache[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[3] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[2] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[1] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awqos[3] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awqos[2] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awqos[1] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awqos[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wid[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wlast in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wuser[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arid[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlen[7] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlen[6] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlen[5] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlen[4] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlen[3] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlen[2] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlen[1] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlen[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arsize[2] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arsize[1] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arsize[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arburst[1] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arburst[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlock[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arcache[3] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arcache[2] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arcache[1] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arcache[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arregion[3] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arregion[2] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arregion[1] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arregion[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arqos[3] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arqos[2] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arqos[1] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arqos[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_aruser[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_bid[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_buser[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rid[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_rlast in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_ruser[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 2272.203 ; gain = 544.613 ; free physical = 1049 ; free virtual = 22973
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1434.185; parent = 1288.023; children = 146.179
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3273.004; parent = 2272.207; children = 1000.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 2287.047 ; gain = 559.457 ; free physical = 1046 ; free virtual = 22971
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1434.185; parent = 1288.023; children = 146.179
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3287.848; parent = 2287.051; children = 1000.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 2287.047 ; gain = 559.457 ; free physical = 1045 ; free virtual = 22970
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1434.185; parent = 1288.023; children = 146.179
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3287.848; parent = 2287.051; children = 1000.797
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2287.047 ; gain = 0.000 ; free physical = 1039 ; free virtual = 22964
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_pc_4/Virtex_auto_pc_4_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/ip/Virtex_auto_pc_4/Virtex_auto_pc_4_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.runs/Virtex_auto_pc_4_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.runs/Virtex_auto_pc_4_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2362.953 ; gain = 0.000 ; free physical = 859 ; free virtual = 22783
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2362.953 ; gain = 0.000 ; free physical = 857 ; free virtual = 22781
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/tools/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 2362.953 ; gain = 635.363 ; free physical = 1180 ; free virtual = 23100
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1434.185; parent = 1288.023; children = 150.540
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3331.738; parent = 2330.941; children = 1000.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1761-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 2362.953 ; gain = 635.363 ; free physical = 1179 ; free virtual = 23099
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1434.185; parent = 1288.023; children = 150.540
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3331.738; parent = 2330.941; children = 1000.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.runs/Virtex_auto_pc_4_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 2362.953 ; gain = 635.363 ; free physical = 1179 ; free virtual = 23099
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1434.185; parent = 1288.023; children = 150.540
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3331.738; parent = 2330.941; children = 1000.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 2362.953 ; gain = 635.363 ; free physical = 1177 ; free virtual = 23098
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1434.185; parent = 1288.023; children = 150.540
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3331.738; parent = 2330.941; children = 1000.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port aclk in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aresetn in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awid[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[7] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[6] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[5] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[4] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[3] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[2] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[1] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlen[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awsize[2] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awsize[1] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awsize[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awburst[1] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awburst[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlock[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awcache[3] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awcache[2] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awcache[1] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awcache[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[3] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[2] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[1] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awregion[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awqos[3] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awqos[2] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awqos[1] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awqos[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wid[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wlast in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wuser[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arid[0] in module axi_protocol_converter_v2_1_27_axi_protocol_converter is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 2362.953 ; gain = 635.363 ; free physical = 1395 ; free virtual = 23328
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1434.185; parent = 1288.023; children = 150.540
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3331.738; parent = 2330.941; children = 1000.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 2362.953 ; gain = 635.363 ; free physical = 1902 ; free virtual = 23853
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1436.647; parent = 1288.023; children = 153.044
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3331.738; parent = 2330.941; children = 1000.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 2362.953 ; gain = 635.363 ; free physical = 1902 ; free virtual = 23853
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1436.746; parent = 1288.023; children = 153.044
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3331.738; parent = 2330.941; children = 1000.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:37 ; elapsed = 00:00:40 . Memory (MB): peak = 2362.953 ; gain = 635.363 ; free physical = 1868 ; free virtual = 23819
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1436.746; parent = 1288.023; children = 153.044
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3331.738; parent = 2330.941; children = 1000.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 2362.953 ; gain = 635.363 ; free physical = 1700 ; free virtual = 23643
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1436.746; parent = 1288.023; children = 153.044
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3331.738; parent = 2330.941; children = 1000.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 2362.953 ; gain = 635.363 ; free physical = 1727 ; free virtual = 23670
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1436.746; parent = 1288.023; children = 153.044
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3331.738; parent = 2330.941; children = 1000.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 2362.953 ; gain = 635.363 ; free physical = 1742 ; free virtual = 23685
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1436.746; parent = 1288.023; children = 153.044
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3331.738; parent = 2330.941; children = 1000.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 2362.953 ; gain = 635.363 ; free physical = 1743 ; free virtual = 23686
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1436.746; parent = 1288.023; children = 153.044
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3331.738; parent = 2330.941; children = 1000.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 2362.953 ; gain = 635.363 ; free physical = 1743 ; free virtual = 23686
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1436.746; parent = 1288.023; children = 153.044
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3331.738; parent = 2330.941; children = 1000.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 2362.953 ; gain = 635.363 ; free physical = 1739 ; free virtual = 23682
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1436.746; parent = 1288.023; children = 153.044
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3331.738; parent = 2330.941; children = 1000.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 2362.953 ; gain = 635.363 ; free physical = 1737 ; free virtual = 23680
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1436.857; parent = 1288.023; children = 156.526
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3331.738; parent = 2330.941; children = 1000.797
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 67 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 2362.953 ; gain = 559.457 ; free physical = 1890 ; free virtual = 23833
+Synthesis Optimization Complete : Time (s): cpu = 00:00:43 ; elapsed = 00:00:47 . Memory (MB): peak = 2362.953 ; gain = 635.363 ; free physical = 1889 ; free virtual = 23832
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2362.953 ; gain = 0.000 ; free physical = 1888 ; free virtual = 23831
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2362.953 ; gain = 0.000 ; free physical = 2062 ; free virtual = 24006
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: ba78f8d7
+INFO: [Common 17-83] Releasing license: Synthesis
+21 Infos, 101 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:05 ; elapsed = 00:01:04 . Memory (MB): peak = 2362.953 ; gain = 1041.305 ; free physical = 2244 ; free virtual = 24188
+INFO: [Common 17-1381] The checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.runs/Virtex_auto_pc_4_synth_1/Virtex_auto_pc_4.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP Virtex_auto_pc_4, cache-ID = 0341dd446aa0428b
+INFO: [Common 17-1381] The checkpoint '/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.runs/Virtex_auto_pc_4_synth_1/Virtex_auto_pc_4.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Virtex_auto_pc_4_utilization_synth.rpt -pb Virtex_auto_pc_4_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Dec 30 20:18:17 2023...

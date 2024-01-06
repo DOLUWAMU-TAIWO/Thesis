@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="dhrzstone" location="/home/dolu/Documents/GitHub/Thesis/dhrystonevitisworkspace/dhrzstone" platform="/home/dolu/Documents/GitHub/Thesis/dhrystonevitisworkspace/Linux_bd_wrapper/export/Linux_bd_wrapper/Linux_bd_wrapper.xpfm" platformUID="xilinx:nexys-a7-100t::0.0(custom)" systemProject="dhrzstone_system" sysConfig="Linux_bd_wrapper" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="3137b7728759bb317a6daf3b3ce56cb5">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1189846862" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.456534004" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="dhrystone"/>
+</sdkproject:SdkProject>

@@ -28,27 +28,6 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Virtex_lmb_
 # IP: bd/Virtex/ip/Virtex_xbar_0/Virtex_xbar_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Virtex_xbar_0 || ORIG_REF_NAME==Virtex_xbar_0} -quiet] -quiet
 
-# IP: bd/Virtex/ip/Virtex_microblaze_0_axi_periph_0/Virtex_microblaze_0_axi_periph_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Virtex_microblaze_0_axi_periph_0 || ORIG_REF_NAME==Virtex_microblaze_0_axi_periph_0} -quiet] -quiet
-
-# IP: bd/Virtex/ip/Virtex_microblaze_0_axi_intc_0/Virtex_microblaze_0_axi_intc_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Virtex_microblaze_0_axi_intc_0 || ORIG_REF_NAME==Virtex_microblaze_0_axi_intc_0} -quiet] -quiet
-
-# IP: bd/Virtex/ip/Virtex_microblaze_0_xlconcat_0/Virtex_microblaze_0_xlconcat_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Virtex_microblaze_0_xlconcat_0 || ORIG_REF_NAME==Virtex_microblaze_0_xlconcat_0} -quiet] -quiet
-
-# IP: bd/Virtex/ip/Virtex_mdm_1_0/Virtex_mdm_1_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Virtex_mdm_1_0 || ORIG_REF_NAME==Virtex_mdm_1_0} -quiet] -quiet
-
-# IP: bd/Virtex/ip/Virtex_rst_mig_7series_0_200M_0/Virtex_rst_mig_7series_0_200M_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Virtex_rst_mig_7series_0_200M_0 || ORIG_REF_NAME==Virtex_rst_mig_7series_0_200M_0} -quiet] -quiet
-
-# IP: bd/Virtex/ip/Virtex_axi_gpio_0_0/Virtex_axi_gpio_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Virtex_axi_gpio_0_0 || ORIG_REF_NAME==Virtex_axi_gpio_0_0} -quiet] -quiet
-
-# IP: bd/Virtex/ip/Virtex_axi_gpio_0_1/Virtex_axi_gpio_0_1.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Virtex_axi_gpio_0_1 || ORIG_REF_NAME==Virtex_axi_gpio_0_1} -quiet] -quiet
-
 # IP: bd/Virtex/ip/Virtex_auto_pc_4/Virtex_auto_pc_4.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Virtex_auto_pc_4 || ORIG_REF_NAME==Virtex_auto_pc_4} -quiet] -quiet
 
@@ -85,7 +64,28 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Virtex_auto
 # IP: bd/Virtex/ip/Virtex_auto_pc_3/Virtex_auto_pc_3.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Virtex_auto_pc_3 || ORIG_REF_NAME==Virtex_auto_pc_3} -quiet] -quiet
 
+# IP: bd/Virtex/ip/Virtex_microblaze_0_axi_periph_0/Virtex_microblaze_0_axi_periph_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Virtex_microblaze_0_axi_periph_0 || ORIG_REF_NAME==Virtex_microblaze_0_axi_periph_0} -quiet] -quiet
+
+# IP: bd/Virtex/ip/Virtex_microblaze_0_axi_intc_0/Virtex_microblaze_0_axi_intc_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Virtex_microblaze_0_axi_intc_0 || ORIG_REF_NAME==Virtex_microblaze_0_axi_intc_0} -quiet] -quiet
+
+# IP: bd/Virtex/ip/Virtex_microblaze_0_xlconcat_0/Virtex_microblaze_0_xlconcat_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Virtex_microblaze_0_xlconcat_0 || ORIG_REF_NAME==Virtex_microblaze_0_xlconcat_0} -quiet] -quiet
+
+# IP: bd/Virtex/ip/Virtex_mdm_1_0/Virtex_mdm_1_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Virtex_mdm_1_0 || ORIG_REF_NAME==Virtex_mdm_1_0} -quiet] -quiet
+
+# IP: bd/Virtex/ip/Virtex_rst_mig_7series_0_200M_0/Virtex_rst_mig_7series_0_200M_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Virtex_rst_mig_7series_0_200M_0 || ORIG_REF_NAME==Virtex_rst_mig_7series_0_200M_0} -quiet] -quiet
+
+# IP: bd/Virtex/ip/Virtex_axi_gpio_0_0/Virtex_axi_gpio_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Virtex_axi_gpio_0_0 || ORIG_REF_NAME==Virtex_axi_gpio_0_0} -quiet] -quiet
+
+# IP: bd/Virtex/ip/Virtex_axi_gpio_0_1/Virtex_axi_gpio_0_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Virtex_axi_gpio_0_1 || ORIG_REF_NAME==Virtex_axi_gpio_0_1} -quiet] -quiet
+
 # IP: bd/Virtex/ip/Virtex_axi_uartlite_0_0/Virtex_axi_uartlite_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Virtex_axi_uartlite_0_0 || ORIG_REF_NAME==Virtex_axi_uartlite_0_0} -quiet] -quiet
 
-# XDC: c:/Users/doluwamu.kaye/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/Virtex_ooc.xdc
+# XDC: /home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.gen/sources_1/bd/Virtex/Virtex_ooc.xdc

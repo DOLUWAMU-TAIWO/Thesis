@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" xmlns:systemproject="http://www.xilinx.com/systemproject" name="dhrzstone_system" platform="/home/dolu/Documents/GitHub/Thesis/dhrystonevitisworkspace/Linux_bd_wrapper/export/Linux_bd_wrapper/Linux_bd_wrapper.xpfm" platformUID="xilinx:nexys-a7-100t::0.0(custom)" sysConfig="Linux_bd_wrapper" runtime="cpp" rootFSLocation="" linuxImage="" sysroot="">
+  <configuration name="Debug" id="com.xilinx.sdx.system.managedbuilder.debugConfiguration.1676168444">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="dhrzstone" domainName="standalone_microblaze_0" domainPrettyName="standalone_microblaze_0" appBuildConfig="Debug"/>
+      <options xsi:type="sdkproject:SdkOptions" generateSdCard="true"/>
+    </configBuildOptions>
+  </configuration>
+  <configuration name="Release" id="com.xilinx.sdx.system.managedbuilder.releaseConfiguration.1874937702">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="dhrzstone" domainName="standalone_microblaze_0" domainPrettyName="standalone_microblaze_0" appBuildConfig="Release"/>
+      <options xsi:type="sdkproject:SdkOptions" generateSdCard="true"/>
+    </configBuildOptions>
+  </configuration>
+</systemproject:SystemProject>

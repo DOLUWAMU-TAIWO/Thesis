@@ -1,0 +1,21 @@
+21:33:15 **** Incremental Build of configuration Debug for project vc707test ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I/home/dolu/Documents/GitHub/Thesis/Vitis_workspace/Virtex_wrapper/export/Virtex_wrapper/sw/Virtex_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: vc707test.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L/home/dolu/Documents/GitHub/Thesis/Vitis_workspace/Virtex_wrapper/export/Virtex_wrapper/sw/Virtex_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "vc707test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: vc707test.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size vc707test.elf  |tee "vc707test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7964	    376	   3228	  11568	   2d30	vc707test.elf
+Finished building: vc707test.elf.size
+ 
+
+21:33:16 Build Finished (took 1s.793ms)
+

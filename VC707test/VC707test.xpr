@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="61" Path="C:/Users/doluwamu.kaye/Documents/GitHub/Thesis/VC707test/VC707test.xpr">
+<Project Version="7" Minor="61" Path="/home/dolu/Documents/GitHub/Thesis/VC707test/VC707test.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="798885b6b43640e59d0b3ce0dfeaa933"/>
@@ -44,7 +44,6 @@
     <Option Name="SimulatorGccVersionActiveHdl" Val="9.3.0"/>
     <Option Name="TargetLanguage" Val="VHDL"/>
     <Option Name="BoardPart" Val="xilinx.com:vc707:part0:1.4"/>
-    <Option Name="BoardPartRepoPaths" Val="$PPRDIR/../../../../AppData/Roaming/Xilinx/Vivado/2022.2/xhub/board_store/xilinx_board_store"/>
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
@@ -97,14 +96,65 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_auto_pc_1/Virtex_auto_pc_1.xci">
-          <Proxy FileSetName="Virtex_auto_pc_1"/>
+        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_microblaze_0_0/Virtex_microblaze_0_0.xci">
+          <Proxy FileSetName="Virtex_microblaze_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_ilmb_bram_if_cntlr_0/Virtex_ilmb_bram_if_cntlr_0.xci">
+          <Proxy FileSetName="Virtex_ilmb_bram_if_cntlr_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_dlmb_bram_if_cntlr_0/Virtex_dlmb_bram_if_cntlr_0.xci">
+          <Proxy FileSetName="Virtex_dlmb_bram_if_cntlr_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_ilmb_v10_0/Virtex_ilmb_v10_0.xci">
+          <Proxy FileSetName="Virtex_ilmb_v10_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_mig_7series_0_0_2/Virtex_mig_7series_0_0.xci">
+          <Proxy FileSetName="Virtex_mig_7series_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_dlmb_v10_0/Virtex_dlmb_v10_0.xci">
+          <Proxy FileSetName="Virtex_dlmb_v10_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_lmb_bram_0/Virtex_lmb_bram_0.xci">
+          <Proxy FileSetName="Virtex_lmb_bram_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_xbar_0/Virtex_xbar_0.xci">
           <Proxy FileSetName="Virtex_xbar_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_axi_gpio_0_1/Virtex_axi_gpio_0_1.xci">
-          <Proxy FileSetName="Virtex_axi_gpio_0_1"/>
+        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_auto_pc_4/Virtex_auto_pc_4.xci">
+          <Proxy FileSetName="Virtex_auto_pc_4"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_auto_us_0/Virtex_auto_us_0.xci">
+          <Proxy FileSetName="Virtex_auto_us_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_auto_us_1/Virtex_auto_us_1.xci">
+          <Proxy FileSetName="Virtex_auto_us_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_auto_us_2/Virtex_auto_us_2.xci">
+          <Proxy FileSetName="Virtex_auto_us_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_auto_ds_0/Virtex_auto_ds_0.xci">
+          <Proxy FileSetName="Virtex_auto_ds_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_auto_pc_0/Virtex_auto_pc_0.xci">
+          <Proxy FileSetName="Virtex_auto_pc_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_auto_ds_1/Virtex_auto_ds_1.xci">
+          <Proxy FileSetName="Virtex_auto_ds_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_auto_pc_1/Virtex_auto_pc_1.xci">
+          <Proxy FileSetName="Virtex_auto_pc_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_auto_ds_2/Virtex_auto_ds_2.xci">
+          <Proxy FileSetName="Virtex_auto_ds_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_auto_pc_2/Virtex_auto_pc_2.xci">
+          <Proxy FileSetName="Virtex_auto_pc_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_auto_ds_3/Virtex_auto_ds_3.xci">
+          <Proxy FileSetName="Virtex_auto_ds_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_auto_pc_3/Virtex_auto_pc_3.xci">
+          <Proxy FileSetName="Virtex_auto_pc_3"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_microblaze_0_axi_intc_0/Virtex_microblaze_0_axi_intc_0.xci">
           <Proxy FileSetName="Virtex_microblaze_0_axi_intc_0"/>
@@ -118,74 +168,17 @@
         <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_axi_gpio_0_0/Virtex_axi_gpio_0_0.xci">
           <Proxy FileSetName="Virtex_axi_gpio_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_ilmb_bram_if_cntlr_0/Virtex_ilmb_bram_if_cntlr_0.xci">
-          <Proxy FileSetName="Virtex_ilmb_bram_if_cntlr_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_lmb_bram_0/Virtex_lmb_bram_0.xci">
-          <Proxy FileSetName="Virtex_lmb_bram_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_auto_us_0/Virtex_auto_us_0.xci">
-          <Proxy FileSetName="Virtex_auto_us_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_auto_pc_4/Virtex_auto_pc_4.xci">
-          <Proxy FileSetName="Virtex_auto_pc_4"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_auto_ds_1/Virtex_auto_ds_1.xci">
-          <Proxy FileSetName="Virtex_auto_ds_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_auto_us_1/Virtex_auto_us_1.xci">
-          <Proxy FileSetName="Virtex_auto_us_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_auto_pc_0/Virtex_auto_pc_0.xci">
-          <Proxy FileSetName="Virtex_auto_pc_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_auto_us_2/Virtex_auto_us_2.xci">
-          <Proxy FileSetName="Virtex_auto_us_2"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_auto_ds_0/Virtex_auto_ds_0.xci">
-          <Proxy FileSetName="Virtex_auto_ds_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_microblaze_0_0/Virtex_microblaze_0_0.xci">
-          <Proxy FileSetName="Virtex_microblaze_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_ilmb_v10_0/Virtex_ilmb_v10_0.xci">
-          <Proxy FileSetName="Virtex_ilmb_v10_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_dlmb_v10_0/Virtex_dlmb_v10_0.xci">
-          <Proxy FileSetName="Virtex_dlmb_v10_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_dlmb_bram_if_cntlr_0/Virtex_dlmb_bram_if_cntlr_0.xci">
-          <Proxy FileSetName="Virtex_dlmb_bram_if_cntlr_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_mig_7series_0_0_2/Virtex_mig_7series_0_0.xci">
-          <Proxy FileSetName="Virtex_mig_7series_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_auto_pc_3/Virtex_auto_pc_3.xci">
-          <Proxy FileSetName="Virtex_auto_pc_3"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_auto_ds_3/Virtex_auto_ds_3.xci">
-          <Proxy FileSetName="Virtex_auto_ds_3"/>
+        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_axi_gpio_0_1/Virtex_axi_gpio_0_1.xci">
+          <Proxy FileSetName="Virtex_axi_gpio_0_1"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_axi_uartlite_0_0/Virtex_axi_uartlite_0_0.xci">
           <Proxy FileSetName="Virtex_axi_uartlite_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_auto_pc_2/Virtex_auto_pc_2.xci">
-          <Proxy FileSetName="Virtex_auto_pc_2"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Virtex.bd" FileRelPathName="ip/Virtex_auto_ds_2/Virtex_auto_ds_2.xci">
-          <Proxy FileSetName="Virtex_auto_ds_2"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PGENDIR/sources_1/bd/Virtex/hdl/Virtex_wrapper.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/bd/Virtex/ip/Virtex_mig_7series_0_0_2/board.prj">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="ScopedToCell" Val="Virtex_mig_7series_0_0"/>
         </FileInfo>
       </File>
       <Config>
@@ -418,11 +411,14 @@
     <Simulator Name="Questa">
       <Option Name="Description" Val="Questa Advanced Simulator"/>
     </Simulator>
+    <Simulator Name="Xcelium">
+      <Option Name="Description" Val="Xcelium Parallel Simulator"/>
+    </Simulator>
+    <Simulator Name="VCS">
+      <Option Name="Description" Val="Verilog Compiler Simulator (VCS)"/>
+    </Simulator>
     <Simulator Name="Riviera">
       <Option Name="Description" Val="Riviera-PRO Simulator"/>
-    </Simulator>
-    <Simulator Name="ActiveHDL">
-      <Option Name="Description" Val="Active-HDL Simulator"/>
     </Simulator>
   </Simulators>
   <Runs Version="1" Minor="19">
@@ -438,9 +434,7 @@
     </Run>
     <Run Id="Virtex_auto_pc_1_synth_1" Type="Ft3:Synth" SrcSet="Virtex_auto_pc_1" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_auto_pc_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Virtex_auto_pc_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_auto_pc_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_auto_pc_1_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -450,9 +444,7 @@
     </Run>
     <Run Id="Virtex_xbar_0_synth_1" Type="Ft3:Synth" SrcSet="Virtex_xbar_0" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_xbar_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Virtex_xbar_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_xbar_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_xbar_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -462,9 +454,7 @@
     </Run>
     <Run Id="Virtex_axi_gpio_0_1_synth_1" Type="Ft3:Synth" SrcSet="Virtex_axi_gpio_0_1" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_axi_gpio_0_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Virtex_axi_gpio_0_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_axi_gpio_0_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_axi_gpio_0_1_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -474,9 +464,7 @@
     </Run>
     <Run Id="Virtex_microblaze_0_axi_intc_0_synth_1" Type="Ft3:Synth" SrcSet="Virtex_microblaze_0_axi_intc_0" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_microblaze_0_axi_intc_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Virtex_microblaze_0_axi_intc_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_microblaze_0_axi_intc_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_microblaze_0_axi_intc_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -486,9 +474,7 @@
     </Run>
     <Run Id="Virtex_mdm_1_0_synth_1" Type="Ft3:Synth" SrcSet="Virtex_mdm_1_0" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_mdm_1_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Virtex_mdm_1_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_mdm_1_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_mdm_1_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -498,9 +484,7 @@
     </Run>
     <Run Id="Virtex_rst_mig_7series_0_200M_0_synth_1" Type="Ft3:Synth" SrcSet="Virtex_rst_mig_7series_0_200M_0" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_rst_mig_7series_0_200M_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Virtex_rst_mig_7series_0_200M_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_rst_mig_7series_0_200M_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_rst_mig_7series_0_200M_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -510,9 +494,7 @@
     </Run>
     <Run Id="Virtex_axi_gpio_0_0_synth_1" Type="Ft3:Synth" SrcSet="Virtex_axi_gpio_0_0" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_axi_gpio_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Virtex_axi_gpio_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_axi_gpio_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_axi_gpio_0_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -522,9 +504,7 @@
     </Run>
     <Run Id="Virtex_ilmb_bram_if_cntlr_0_synth_1" Type="Ft3:Synth" SrcSet="Virtex_ilmb_bram_if_cntlr_0" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_ilmb_bram_if_cntlr_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Virtex_ilmb_bram_if_cntlr_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_ilmb_bram_if_cntlr_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_ilmb_bram_if_cntlr_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -534,9 +514,7 @@
     </Run>
     <Run Id="Virtex_lmb_bram_0_synth_1" Type="Ft3:Synth" SrcSet="Virtex_lmb_bram_0" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_lmb_bram_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Virtex_lmb_bram_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_lmb_bram_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_lmb_bram_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -546,9 +524,7 @@
     </Run>
     <Run Id="Virtex_auto_us_0_synth_1" Type="Ft3:Synth" SrcSet="Virtex_auto_us_0" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_auto_us_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Virtex_auto_us_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_auto_us_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_auto_us_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -558,9 +534,7 @@
     </Run>
     <Run Id="Virtex_auto_pc_4_synth_1" Type="Ft3:Synth" SrcSet="Virtex_auto_pc_4" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_auto_pc_4" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Virtex_auto_pc_4_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_auto_pc_4_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_auto_pc_4_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -570,9 +544,7 @@
     </Run>
     <Run Id="Virtex_auto_ds_1_synth_1" Type="Ft3:Synth" SrcSet="Virtex_auto_ds_1" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_auto_ds_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Virtex_auto_ds_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_auto_ds_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_auto_ds_1_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -582,9 +554,7 @@
     </Run>
     <Run Id="Virtex_auto_us_1_synth_1" Type="Ft3:Synth" SrcSet="Virtex_auto_us_1" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_auto_us_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Virtex_auto_us_1_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_auto_us_1_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_auto_us_1_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -594,9 +564,7 @@
     </Run>
     <Run Id="Virtex_auto_pc_0_synth_1" Type="Ft3:Synth" SrcSet="Virtex_auto_pc_0" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_auto_pc_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Virtex_auto_pc_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_auto_pc_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_auto_pc_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -606,9 +574,7 @@
     </Run>
     <Run Id="Virtex_auto_us_2_synth_1" Type="Ft3:Synth" SrcSet="Virtex_auto_us_2" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_auto_us_2" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Virtex_auto_us_2_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_auto_us_2_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_auto_us_2_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -618,9 +584,7 @@
     </Run>
     <Run Id="Virtex_auto_ds_0_synth_1" Type="Ft3:Synth" SrcSet="Virtex_auto_ds_0" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_auto_ds_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Virtex_auto_ds_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_auto_ds_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_auto_ds_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -630,9 +594,7 @@
     </Run>
     <Run Id="Virtex_microblaze_0_0_synth_1" Type="Ft3:Synth" SrcSet="Virtex_microblaze_0_0" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_microblaze_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Virtex_microblaze_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_microblaze_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_microblaze_0_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -642,9 +604,7 @@
     </Run>
     <Run Id="Virtex_ilmb_v10_0_synth_1" Type="Ft3:Synth" SrcSet="Virtex_ilmb_v10_0" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_ilmb_v10_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Virtex_ilmb_v10_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_ilmb_v10_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_ilmb_v10_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -654,9 +614,7 @@
     </Run>
     <Run Id="Virtex_dlmb_v10_0_synth_1" Type="Ft3:Synth" SrcSet="Virtex_dlmb_v10_0" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_dlmb_v10_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Virtex_dlmb_v10_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_dlmb_v10_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_dlmb_v10_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -666,9 +624,7 @@
     </Run>
     <Run Id="Virtex_dlmb_bram_if_cntlr_0_synth_1" Type="Ft3:Synth" SrcSet="Virtex_dlmb_bram_if_cntlr_0" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_dlmb_bram_if_cntlr_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Virtex_dlmb_bram_if_cntlr_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_dlmb_bram_if_cntlr_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_dlmb_bram_if_cntlr_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -678,9 +634,7 @@
     </Run>
     <Run Id="Virtex_mig_7series_0_0_synth_1" Type="Ft3:Synth" SrcSet="Virtex_mig_7series_0_0" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_mig_7series_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Virtex_mig_7series_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_mig_7series_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_mig_7series_0_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -690,9 +644,7 @@
     </Run>
     <Run Id="Virtex_auto_pc_3_synth_1" Type="Ft3:Synth" SrcSet="Virtex_auto_pc_3" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_auto_pc_3" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Virtex_auto_pc_3_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_auto_pc_3_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_auto_pc_3_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -702,9 +654,7 @@
     </Run>
     <Run Id="Virtex_auto_ds_3_synth_1" Type="Ft3:Synth" SrcSet="Virtex_auto_ds_3" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_auto_ds_3" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Virtex_auto_ds_3_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_auto_ds_3_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_auto_ds_3_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -714,9 +664,7 @@
     </Run>
     <Run Id="Virtex_axi_uartlite_0_0_synth_1" Type="Ft3:Synth" SrcSet="Virtex_axi_uartlite_0_0" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_axi_uartlite_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Virtex_axi_uartlite_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_axi_uartlite_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_axi_uartlite_0_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -726,9 +674,7 @@
     </Run>
     <Run Id="Virtex_auto_pc_2_synth_1" Type="Ft3:Synth" SrcSet="Virtex_auto_pc_2" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_auto_pc_2" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Virtex_auto_pc_2_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_auto_pc_2_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_auto_pc_2_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -738,9 +684,7 @@
     </Run>
     <Run Id="Virtex_auto_ds_2_synth_1" Type="Ft3:Synth" SrcSet="Virtex_auto_ds_2" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_auto_ds_2" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Virtex_auto_ds_2_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_auto_ds_2_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_auto_ds_2_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -768,9 +712,7 @@
     </Run>
     <Run Id="Virtex_auto_pc_1_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_auto_pc_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Virtex_auto_pc_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_auto_pc_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_auto_pc_1_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -787,9 +729,7 @@
     </Run>
     <Run Id="Virtex_xbar_0_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_xbar_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Virtex_xbar_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_xbar_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_xbar_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -806,9 +746,7 @@
     </Run>
     <Run Id="Virtex_axi_gpio_0_1_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_axi_gpio_0_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Virtex_axi_gpio_0_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_axi_gpio_0_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_axi_gpio_0_1_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -825,9 +763,7 @@
     </Run>
     <Run Id="Virtex_microblaze_0_axi_intc_0_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_microblaze_0_axi_intc_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Virtex_microblaze_0_axi_intc_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_microblaze_0_axi_intc_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_microblaze_0_axi_intc_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -844,9 +780,7 @@
     </Run>
     <Run Id="Virtex_mdm_1_0_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_mdm_1_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Virtex_mdm_1_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_mdm_1_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_mdm_1_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -863,9 +797,7 @@
     </Run>
     <Run Id="Virtex_rst_mig_7series_0_200M_0_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_rst_mig_7series_0_200M_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Virtex_rst_mig_7series_0_200M_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_rst_mig_7series_0_200M_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_rst_mig_7series_0_200M_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -882,9 +814,7 @@
     </Run>
     <Run Id="Virtex_axi_gpio_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_axi_gpio_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Virtex_axi_gpio_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_axi_gpio_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_axi_gpio_0_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -901,9 +831,7 @@
     </Run>
     <Run Id="Virtex_ilmb_bram_if_cntlr_0_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_ilmb_bram_if_cntlr_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Virtex_ilmb_bram_if_cntlr_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_ilmb_bram_if_cntlr_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_ilmb_bram_if_cntlr_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -920,9 +848,7 @@
     </Run>
     <Run Id="Virtex_lmb_bram_0_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_lmb_bram_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Virtex_lmb_bram_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_lmb_bram_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_lmb_bram_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -939,9 +865,7 @@
     </Run>
     <Run Id="Virtex_auto_us_0_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_auto_us_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Virtex_auto_us_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_auto_us_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_auto_us_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -958,9 +882,7 @@
     </Run>
     <Run Id="Virtex_auto_pc_4_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_auto_pc_4" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Virtex_auto_pc_4_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_auto_pc_4_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_auto_pc_4_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -977,9 +899,7 @@
     </Run>
     <Run Id="Virtex_auto_ds_1_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_auto_ds_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Virtex_auto_ds_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_auto_ds_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_auto_ds_1_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -996,9 +916,7 @@
     </Run>
     <Run Id="Virtex_auto_us_1_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_auto_us_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Virtex_auto_us_1_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_auto_us_1_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_auto_us_1_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -1015,9 +933,7 @@
     </Run>
     <Run Id="Virtex_auto_pc_0_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_auto_pc_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Virtex_auto_pc_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_auto_pc_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_auto_pc_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -1034,9 +950,7 @@
     </Run>
     <Run Id="Virtex_auto_us_2_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_auto_us_2" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Virtex_auto_us_2_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_auto_us_2_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_auto_us_2_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -1053,9 +967,7 @@
     </Run>
     <Run Id="Virtex_auto_ds_0_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_auto_ds_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Virtex_auto_ds_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_auto_ds_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_auto_ds_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -1072,9 +984,7 @@
     </Run>
     <Run Id="Virtex_microblaze_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_microblaze_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Virtex_microblaze_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_microblaze_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_microblaze_0_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -1091,9 +1001,7 @@
     </Run>
     <Run Id="Virtex_ilmb_v10_0_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_ilmb_v10_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Virtex_ilmb_v10_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_ilmb_v10_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_ilmb_v10_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -1110,9 +1018,7 @@
     </Run>
     <Run Id="Virtex_dlmb_v10_0_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_dlmb_v10_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Virtex_dlmb_v10_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_dlmb_v10_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_dlmb_v10_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -1129,9 +1035,7 @@
     </Run>
     <Run Id="Virtex_dlmb_bram_if_cntlr_0_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_dlmb_bram_if_cntlr_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Virtex_dlmb_bram_if_cntlr_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_dlmb_bram_if_cntlr_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_dlmb_bram_if_cntlr_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -1148,9 +1052,7 @@
     </Run>
     <Run Id="Virtex_mig_7series_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_mig_7series_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Virtex_mig_7series_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_mig_7series_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_mig_7series_0_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -1167,9 +1069,7 @@
     </Run>
     <Run Id="Virtex_auto_pc_3_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_auto_pc_3" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Virtex_auto_pc_3_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_auto_pc_3_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_auto_pc_3_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -1186,9 +1086,7 @@
     </Run>
     <Run Id="Virtex_auto_ds_3_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_auto_ds_3" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Virtex_auto_ds_3_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_auto_ds_3_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_auto_ds_3_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -1205,9 +1103,7 @@
     </Run>
     <Run Id="Virtex_axi_uartlite_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_axi_uartlite_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Virtex_axi_uartlite_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_axi_uartlite_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_axi_uartlite_0_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -1224,9 +1120,7 @@
     </Run>
     <Run Id="Virtex_auto_pc_2_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_auto_pc_2" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Virtex_auto_pc_2_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_auto_pc_2_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_auto_pc_2_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -1243,9 +1137,7 @@
     </Run>
     <Run Id="Virtex_auto_ds_2_impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="Virtex_auto_ds_2" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Virtex_auto_ds_2_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Virtex_auto_ds_2_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Virtex_auto_ds_2_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
