@@ -3545,3 +3545,48 @@ java.lang.Error
 
 !ENTRY com.xilinx.sdk.utils 0 0 2023-12-31 03:22:16.777
 !MESSAGE XSCT command with result: [disconnect tcfchan#6], Result: [null, ]. Thread: Thread-407
+!SESSION 2024-01-05 21:41:06.904 -----------------------------------------------
+eclipse.buildId=2022.2
+java.version=11.0.11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.osgi 4 0 2024-01-05 21:41:08.188
+!MESSAGE Bundle reference:file:org.apache.log4j_1.2.15.v201012070815.jar not found.
+
+!ENTRY org.eclipse.osgi 4 0 2024-01-05 21:41:08.309
+!MESSAGE Bundle reference:file:org.slf4j.impl.log4j12_1.7.2.v20131105-2200.jar not found.
+
+!ENTRY org.eclipse.ui 4 4 2024-01-05 21:41:31.349
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-05 21:41:37.146
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-05 21:41:37.146
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-4: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-05 21:41:37.147
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-23
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-05 21:41:37.152
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-11
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-05 21:41:37.745
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-4: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-05 21:41:37.745
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-23
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-05 21:41:37.746
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-4: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-05 21:41:37.746
+!MESSAGE XSCT Command: [setws /home/dolu/Documents/GitHub/Thesis/Vitis_workspace], Thread: Thread-23
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-05 21:41:37.746
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, /tools/Xilinx/Vitis/2022.2/data]. Thread: Worker-4: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-01-05 21:41:37.747
+!MESSAGE XSCT command with result: [setws /home/dolu/Documents/GitHub/Thesis/Vitis_workspace], Result: [null, ]. Thread: Thread-23

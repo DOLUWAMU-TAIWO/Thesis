@@ -1,0 +1,4 @@
+timestamp=[2024-01-05 21:43:52], mode=WORKBENCH_START, duration=0:00:04.908, duration_ms=4908, data={}
+timestamp=[2024-01-05 21:43:52], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.035, duration_ms=35, data={}
+timestamp=[2024-01-05 21:43:52], mode=WORKBENCH_UI_INIT, duration=0:00:00.580, duration_ms=580, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-01-05 21:45:30], mode=APP_CREATION, duration=0:00:05.305, duration_ms=5305, data={name=dhrzstone, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=Linux_bd_wrapper, application_type=application}
