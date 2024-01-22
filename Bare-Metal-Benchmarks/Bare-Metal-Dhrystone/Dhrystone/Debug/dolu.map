@@ -1,0 +1,402 @@
+Archive member included to satisfy reference by file (symbol)
+
+/tools/riscv/lib/gcc/riscv64-unknown-elf/13.2.0/../../../../riscv64-unknown-elf/lib/libc.a(libc_a-strcmp.o)
+                              ./src/dhrystone.o (strcmp)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000      0x820 ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000       0x10 ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000       0x22 ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000       0x8e ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000       0x51 ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000       0xfd ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000       0x6a ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000      0x1df ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000       0x3c ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000       0x67 ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000       0x20 ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000       0x3b ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000       0x34 ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000       0x16 ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000       0x9e ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000      0x369 ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000      0x112 ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000       0x10 ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000       0x16 ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000       0x4a ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000       0x34 ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000       0x10 ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000       0x52 ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000      0x1de ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000       0x16 ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000       0x16 ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000      0x170 ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000       0x16 ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000       0x3c ./src/dhrystone_main.o
+ .debug_macro   0x0000000000000000       0x19 ./src/dhrystone_main.o
+ .group         0x0000000000000000        0xc ./kprintf.o
+ .group         0x0000000000000000        0xc ./kprintf.o
+ .group         0x0000000000000000        0xc ./kprintf.o
+ .group         0x0000000000000000        0xc ./kprintf.o
+ .group         0x0000000000000000        0xc ./kprintf.o
+ .group         0x0000000000000000        0xc ./kprintf.o
+ .group         0x0000000000000000        0xc ./kprintf.o
+ .group         0x0000000000000000        0xc ./kprintf.o
+ .group         0x0000000000000000        0xc ./kprintf.o
+ .debug_macro   0x0000000000000000      0x820 ./kprintf.o
+ .debug_macro   0x0000000000000000       0x22 ./kprintf.o
+ .debug_macro   0x0000000000000000       0x8e ./kprintf.o
+ .debug_macro   0x0000000000000000       0x51 ./kprintf.o
+ .debug_macro   0x0000000000000000       0xfd ./kprintf.o
+ .debug_macro   0x0000000000000000       0x6a ./kprintf.o
+ .debug_macro   0x0000000000000000      0x1df ./kprintf.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+memory_mem       0x0000000080000000 0x0000000040000000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ./src/dhrystone.o
+LOAD ./src/dhrystone_main.o
+LOAD ./head.o
+LOAD ./kprintf.o
+LOAD /tools/riscv/lib/gcc/riscv64-unknown-elf/13.2.0/libgcc.a
+START GROUP
+LOAD /tools/riscv/lib/gcc/riscv64-unknown-elf/13.2.0/../../../../riscv64-unknown-elf/lib/libc.a
+LOAD /tools/riscv/lib/gcc/riscv64-unknown-elf/13.2.0/../../../../riscv64-unknown-elf/lib/libgloss.a
+END GROUP
+LOAD /tools/riscv/lib/gcc/riscv64-unknown-elf/13.2.0/libgcc.a
+                [!provide]                        PROVIDE (_ram = ORIGIN (memory_mem))
+                [!provide]                        PROVIDE (_ram_end = (_ram + LENGTH (memory_mem)))
+
+.text           0x0000000080000000     0x1338
+                0x0000000080000008                . = (. + 0x8)
+ *fill*         0x0000000080000000        0x8 
+                [!provide]                        PROVIDE (_ftext = .)
+ *(.text.unlikely .text.unlikely.*)
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x0000000080000008        0x0 ./src/dhrystone.o
+ .text.Proc_7   0x0000000080000008        0x8 ./src/dhrystone.o
+                0x0000000080000008                Proc_7
+ .text.Proc_8   0x0000000080000010       0x4a ./src/dhrystone.o
+                0x0000000080000010                Proc_8
+ .text.Func_1   0x000000008000005a       0x24 ./src/dhrystone.o
+                0x000000008000005a                Func_1
+ .text.Func_2   0x000000008000007e       0x40 ./src/dhrystone.o
+                0x000000008000007e                Func_2
+ .text.Func_3   0x00000000800000be        0x8 ./src/dhrystone.o
+                0x00000000800000be                Func_3
+ .text.Proc_6   0x00000000800000c6       0x70 ./src/dhrystone.o
+                0x00000000800000c6                Proc_6
+ .text.debug_printf
+                0x0000000080000136       0x14 ./src/dhrystone.o
+                0x0000000080000136                debug_printf
+ .text          0x000000008000014a        0x0 ./src/dhrystone_main.o
+ .text.mycycle  0x000000008000014a        0x6 ./src/dhrystone_main.o
+ .text.setStats
+                0x0000000080000150       0x24 ./src/dhrystone_main.o
+                0x0000000080000150                setStats
+ .text.Proc_2   0x0000000080000174       0x24 ./src/dhrystone_main.o
+                0x0000000080000174                Proc_2
+ .text.Proc_3   0x0000000080000198       0x20 ./src/dhrystone_main.o
+                0x0000000080000198                Proc_3
+ .text.Proc_1   0x00000000800001b8       0xae ./src/dhrystone_main.o
+                0x00000000800001b8                Proc_1
+ .text.Proc_4   0x0000000080000266       0x2c ./src/dhrystone_main.o
+                0x0000000080000266                Proc_4
+ .text.Proc_5   0x0000000080000292       0x16 ./src/dhrystone_main.o
+                0x0000000080000292                Proc_5
+ .text.startup.main
+                0x00000000800002a8      0x6e4 ./src/dhrystone_main.o
+                0x00000000800002a8                main
+ .text          0x000000008000098c        0x0 ./head.o
+ .text.start    0x000000008000098c       0x10 ./head.o
+                0x000000008000098c                _start
+ .text          0x000000008000099c        0x0 ./kprintf.o
+ .text.kputc    0x000000008000099c       0x12 ./kprintf.o
+                0x000000008000099c                kputc
+ .text.kputs    0x00000000800009ae       0x3c ./kprintf.o
+                0x00000000800009ae                kputs
+ .text.kprintf  0x00000000800009ea      0x1d0 ./kprintf.o
+                0x00000000800009ea                kprintf
+ .text          0x0000000080000bba       0xea /tools/riscv/lib/gcc/riscv64-unknown-elf/13.2.0/../../../../riscv64-unknown-elf/lib/libc.a(libc_a-strcmp.o)
+                0x0000000080000bba                strcmp
+                0x0000000080000ca8                . = ALIGN (0x8)
+ *fill*         0x0000000080000ca4        0x4 
+                [!provide]                        PROVIDE (_etext = .)
+ *(.eh_frame)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.main.str1.8
+                0x0000000080000ca8      0x629 ./src/dhrystone_main.o
+                                        0x621 (size before relaxing)
+ *fill*         0x00000000800012d1        0x3 
+ .rodata.kprintf
+                0x00000000800012d4       0x58 ./kprintf.o
+ *(.srodata .srodata.*)
+ *fill*         0x000000008000132c        0x4 
+ .srodata.cst8  0x0000000080001330        0x8 /tools/riscv/lib/gcc/riscv64-unknown-elf/13.2.0/../../../../riscv64-unknown-elf/lib/libc.a(libc_a-strcmp.o)
+
+.data           0x0000000080001338        0x0
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000080001338        0x0 ./src/dhrystone.o
+ .data          0x0000000080001338        0x0 ./src/dhrystone_main.o
+ .data          0x0000000080001338        0x0 ./head.o
+ .data          0x0000000080001338        0x0 ./kprintf.o
+ .data          0x0000000080001338        0x0 /tools/riscv/lib/gcc/riscv64-unknown-elf/13.2.0/../../../../riscv64-unknown-elf/lib/libc.a(libc_a-strcmp.o)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ *(.tohost)
+
+.bss            0x0000000080001338     0x2838
+                [!provide]                        PROVIDE (_fbss = .)
+                [!provide]                        PROVIDE (__global_pointer$ = (. + 0x7c0))
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss.Dhrystones_Per_Second
+                0x0000000080001338        0x8 ./src/dhrystone_main.o
+                0x0000000080001338                Dhrystones_Per_Second
+ .sbss.Microseconds
+                0x0000000080001340        0x8 ./src/dhrystone_main.o
+                0x0000000080001340                Microseconds
+ .sbss.User_Time
+                0x0000000080001348        0x8 ./src/dhrystone_main.o
+                0x0000000080001348                User_Time
+ .sbss.End_Time
+                0x0000000080001350        0x8 ./src/dhrystone_main.o
+                0x0000000080001350                End_Time
+ .sbss.Begin_Time
+                0x0000000080001358        0x8 ./src/dhrystone_main.o
+                0x0000000080001358                Begin_Time
+ .sbss.Done     0x0000000080001360        0x4 ./src/dhrystone_main.o
+                0x0000000080001360                Done
+ .sbss.Reg      0x0000000080001364        0x4 ./src/dhrystone_main.o
+                0x0000000080001364                Reg
+ .sbss.Ch_2_Glob
+                0x0000000080001368        0x1 ./src/dhrystone_main.o
+                0x0000000080001368                Ch_2_Glob
+ .sbss.Ch_1_Glob
+                0x0000000080001369        0x1 ./src/dhrystone_main.o
+                0x0000000080001369                Ch_1_Glob
+ *fill*         0x000000008000136a        0x2 
+ .sbss.Bool_Glob
+                0x000000008000136c        0x4 ./src/dhrystone_main.o
+                0x000000008000136c                Bool_Glob
+ .sbss.Int_Glob
+                0x0000000080001370        0x4 ./src/dhrystone_main.o
+                0x0000000080001370                Int_Glob
+ *fill*         0x0000000080001374        0x4 
+ .sbss.Next_Ptr_Glob
+                0x0000000080001378        0x8 ./src/dhrystone_main.o
+                0x0000000080001378                Next_Ptr_Glob
+ .sbss.Ptr_Glob
+                0x0000000080001380        0x8 ./src/dhrystone_main.o
+                0x0000000080001380                Ptr_Glob
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000080001388        0x0 ./src/dhrystone.o
+ .bss           0x0000000080001388        0x0 ./src/dhrystone_main.o
+ .bss.counters  0x0000000080001388       0x10 ./src/dhrystone_main.o
+ .bss.Arr_2_Glob
+                0x0000000080001398     0x2710 ./src/dhrystone_main.o
+                0x0000000080001398                Arr_2_Glob
+ .bss.Arr_1_Glob
+                0x0000000080003aa8       0xc8 ./src/dhrystone_main.o
+                0x0000000080003aa8                Arr_1_Glob
+ .bss           0x0000000080003b70        0x0 ./head.o
+ .bss           0x0000000080003b70        0x0 ./kprintf.o
+ .bss           0x0000000080003b70        0x0 /tools/riscv/lib/gcc/riscv64-unknown-elf/13.2.0/../../../../riscv64-unknown-elf/lib/libc.a(libc_a-strcmp.o)
+                0x0000000080003b70                . = ALIGN (0x8)
+                [!provide]                        PROVIDE (_ebss = .)
+
+.note
+ *(.note .note.*)
+OUTPUT(dolu.elf elf64-littleriscv)
+
+.debug_info     0x0000000000000000     0x1924
+ .debug_info    0x0000000000000000      0x3ea ./src/dhrystone.o
+ .debug_info    0x00000000000003ea     0x10cd ./src/dhrystone_main.o
+ .debug_info    0x00000000000014b7       0x28 ./head.o
+ .debug_info    0x00000000000014df      0x445 ./kprintf.o
+
+.debug_abbrev   0x0000000000000000      0x622
+ .debug_abbrev  0x0000000000000000      0x17b ./src/dhrystone.o
+ .debug_abbrev  0x000000000000017b      0x2b7 ./src/dhrystone_main.o
+ .debug_abbrev  0x0000000000000432       0x14 ./head.o
+ .debug_abbrev  0x0000000000000446      0x1dc ./kprintf.o
+
+.debug_loclists
+                0x0000000000000000      0x756
+ .debug_loclists
+                0x0000000000000000      0x27e ./src/dhrystone.o
+ .debug_loclists
+                0x000000000000027e      0x208 ./src/dhrystone_main.o
+ .debug_loclists
+                0x0000000000000486      0x2d0 ./kprintf.o
+
+.debug_aranges  0x0000000000000000      0x1b0
+ .debug_aranges
+                0x0000000000000000       0x90 ./src/dhrystone.o
+ .debug_aranges
+                0x0000000000000090       0xa0 ./src/dhrystone_main.o
+ .debug_aranges
+                0x0000000000000130       0x30 ./head.o
+ .debug_aranges
+                0x0000000000000160       0x50 ./kprintf.o
+
+.debug_rnglists
+                0x0000000000000000      0x226
+ .debug_rnglists
+                0x0000000000000000       0x53 ./src/dhrystone.o
+ .debug_rnglists
+                0x0000000000000053       0xe2 ./src/dhrystone_main.o
+ .debug_rnglists
+                0x0000000000000135       0xf1 ./kprintf.o
+
+.debug_macro    0x0000000000000000     0x1c0b
+ .debug_macro   0x0000000000000000      0x17e ./src/dhrystone.o
+ .debug_macro   0x000000000000017e      0x820 ./src/dhrystone.o
+ .debug_macro   0x000000000000099e       0x10 ./src/dhrystone.o
+ .debug_macro   0x00000000000009ae       0x22 ./src/dhrystone.o
+ .debug_macro   0x00000000000009d0       0x8e ./src/dhrystone.o
+ .debug_macro   0x0000000000000a5e       0x51 ./src/dhrystone.o
+ .debug_macro   0x0000000000000aaf       0xfd ./src/dhrystone.o
+ .debug_macro   0x0000000000000bac       0x6a ./src/dhrystone.o
+ .debug_macro   0x0000000000000c16      0x1df ./src/dhrystone.o
+ .debug_macro   0x0000000000000df5       0x3c ./src/dhrystone.o
+ .debug_macro   0x0000000000000e31       0x67 ./src/dhrystone.o
+ .debug_macro   0x0000000000000e98       0x20 ./src/dhrystone.o
+ .debug_macro   0x0000000000000eb8       0x3b ./src/dhrystone.o
+ .debug_macro   0x0000000000000ef3       0x34 ./src/dhrystone.o
+ .debug_macro   0x0000000000000f27       0x16 ./src/dhrystone.o
+ .debug_macro   0x0000000000000f3d       0x9e ./src/dhrystone.o
+ .debug_macro   0x0000000000000fdb      0x369 ./src/dhrystone.o
+ .debug_macro   0x0000000000001344      0x112 ./src/dhrystone.o
+ .debug_macro   0x0000000000001456       0x10 ./src/dhrystone.o
+ .debug_macro   0x0000000000001466       0x16 ./src/dhrystone.o
+ .debug_macro   0x000000000000147c       0x4a ./src/dhrystone.o
+ .debug_macro   0x00000000000014c6       0x34 ./src/dhrystone.o
+ .debug_macro   0x00000000000014fa       0x10 ./src/dhrystone.o
+ .debug_macro   0x000000000000150a       0x52 ./src/dhrystone.o
+ .debug_macro   0x000000000000155c      0x1de ./src/dhrystone.o
+ .debug_macro   0x000000000000173a       0x16 ./src/dhrystone.o
+ .debug_macro   0x0000000000001750       0x16 ./src/dhrystone.o
+ .debug_macro   0x0000000000001766      0x170 ./src/dhrystone.o
+ .debug_macro   0x00000000000018d6       0x16 ./src/dhrystone.o
+ .debug_macro   0x00000000000018ec       0x3c ./src/dhrystone.o
+ .debug_macro   0x0000000000001928       0x19 ./src/dhrystone.o
+ .debug_macro   0x0000000000001941      0x1a3 ./src/dhrystone_main.o
+ .debug_macro   0x0000000000001ae4       0x16 ./src/dhrystone_main.o
+ .debug_macro   0x0000000000001afa       0x97 ./kprintf.o
+ .debug_macro   0x0000000000001b91       0x58 ./kprintf.o
+ .debug_macro   0x0000000000001be9       0x22 ./kprintf.o
+
+.debug_line     0x0000000000000000     0x1b85
+ .debug_line    0x0000000000000000      0x50f ./src/dhrystone.o
+ .debug_line    0x000000000000050f      0xc76 ./src/dhrystone_main.o
+ .debug_line    0x0000000000001185       0x5e ./head.o
+ .debug_line    0x00000000000011e3      0x9a2 ./kprintf.o
+
+.debug_str      0x0000000000000000     0x71e7
+ .debug_str     0x0000000000000000     0x71e7 ./src/dhrystone.o
+                                       0x6e72 (size before relaxing)
+ .debug_str     0x00000000000071e7     0x70ad ./src/dhrystone_main.o
+ .debug_str     0x00000000000071e7       0x3a ./head.o
+ .debug_str     0x00000000000071e7     0x3a82 ./kprintf.o
+
+.debug_line_str
+                0x0000000000000000      0x22e
+ .debug_line_str
+                0x0000000000000000      0x22e ./src/dhrystone.o
+                                        0x22d (size before relaxing)
+ .debug_line_str
+                0x000000000000022e      0x24f ./src/dhrystone_main.o
+ .debug_line_str
+                0x000000000000022e       0x2e ./head.o
+ .debug_line_str
+                0x000000000000022e      0x1c2 ./kprintf.o
+
+.comment        0x0000000000000000       0x1b
+ .comment       0x0000000000000000       0x1b ./src/dhrystone.o
+                                         0x1c (size before relaxing)
+ .comment       0x000000000000001b       0x1c ./src/dhrystone_main.o
+ .comment       0x000000000000001b       0x1c ./kprintf.o
+
+.riscv.attributes
+                0x0000000000000000       0x59
+ .riscv.attributes
+                0x0000000000000000       0x55 ./src/dhrystone.o
+ .riscv.attributes
+                0x0000000000000055       0x59 ./src/dhrystone_main.o
+ .riscv.attributes
+                0x00000000000000ae       0x55 ./head.o
+ .riscv.attributes
+                0x0000000000000103       0x55 ./kprintf.o
+ .riscv.attributes
+                0x0000000000000158       0x45 /tools/riscv/lib/gcc/riscv64-unknown-elf/13.2.0/../../../../riscv64-unknown-elf/lib/libc.a(libc_a-strcmp.o)
+
+.debug_frame    0x0000000000000000      0x2d0
+ .debug_frame   0x0000000000000000      0x110 ./src/dhrystone.o
+ .debug_frame   0x0000000000000110      0x158 ./src/dhrystone_main.o
+ .debug_frame   0x0000000000000268       0x68 ./kprintf.o
