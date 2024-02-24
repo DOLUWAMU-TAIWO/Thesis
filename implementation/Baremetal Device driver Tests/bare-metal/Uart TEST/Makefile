@@ -16,7 +16,7 @@ all: boot.elf
 
 boot.elf: head.S kprintf.c xadc.c main.c
 	make -C ../.. workspace/gcc/riscv
-	$(CC) $(CCFLAGS) $(LFLAGS) -o $@ head.S kprintf.c xadc.c main.c 
+	$(CC) $(CCFLAGS) $(LFLAGS) -o $@ head.S kprintf.c main.c 
 	$(OBJDUMP) -h -p $@
 
 clean:
