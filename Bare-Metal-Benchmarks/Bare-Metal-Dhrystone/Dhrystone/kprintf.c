@@ -1,6 +1,6 @@
 #include <stdarg.h>
 #include <stdint.h>
-#include <stdbool.h>
+
 
 #include "kprintf.h"
 
@@ -17,12 +17,12 @@ struct uart_regs {
 };
 
 void kputc(char ch) {
-    struct uart_regs * regs = (struct uart_regs *)0x60010000;
+    struct uart_regs *regs = (struct uart_regs *)0x60010000;
     while (regs->status & SR_TX_FIFO_FULL) {}
     regs->tx_fifo = ch & 0xff;
 }
 
-void kputs(const char * s) {
+void kputs(const char *s) {
     while (*s) kputc(*s++);
     kputc('\r');
     kputc('\n');
@@ -110,4 +110,38 @@ void kprintf(const char * fmt, ...) {
         }
     }
     va_end(vl);
+}
+
+void UART_Write(const char* str) {
+    while (*str != '\0') {
+        kputc(*str++);
+    }
+}
+
+void UART_Read(char* buffer, int max_length) {
+    struct uart_regs *regs = (struct uart_regs *)0x60010000;
+    int count = 0;
+
+    while (1) {
+        // Wait until there is data in the receive FIFO
+        while (!(regs->status & SR_RX_FIFO_VALID_DATA));
+
+        char ch = regs->rx_fifo & 0xFF;
+
+        // Echo the received character back to UART
+        kputc(ch); // <-- Add this line for echoing
+
+        // Store the character in the buffer
+        if (count < max_length - 1) {
+            buffer[count++] = ch;
+        }
+
+        // Check for newline or carriage return (end of input)
+        if (ch == '\n' || ch == '\r') {
+            break;
+        }
+    }
+
+    // Null-terminate the string
+    buffer[count] = '\0';
 }
