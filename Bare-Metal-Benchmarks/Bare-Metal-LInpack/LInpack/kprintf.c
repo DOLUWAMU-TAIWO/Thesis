@@ -1,6 +1,8 @@
 #include <stdarg.h>
 #include <stdint.h>
-
+#include <math.h>
+#include <stdio.h>
+#include <stdbool.h>
 
 #include "kprintf.h"
 
@@ -63,6 +65,15 @@ void kprintf(const char * fmt, ...) {
                 }
                 break;
             }
+            case 'f': {
+                // Assume double for simplicity due to default argument promotions
+                double floatVal = va_arg(vl, double);
+                char floatStr[64]; // Ensure the buffer is large enough
+                ftoa(floatVal, floatStr, 6); // Example fixed precision of 6 decimal places
+                kputs(floatStr);
+                break;
+            }
+
             case 'd': {
                 char buf[32];
                 long n;
@@ -144,4 +155,82 @@ void UART_Read(char* buffer, int max_length) {
 
     // Null-terminate the string
     buffer[count] = '\0';
+}
+
+
+
+
+// C program for implementation of ftoa()
+
+
+
+// Reverses a string 'str' of length 'len'
+void reverse(char* str, int len) {
+    int i = 0, j = len - 1;
+    while (i < j) {
+        char temp = str[i];
+        str[i] = str[j];
+        str[j] = temp;
+        i++;
+        j--;
+    }
+}
+
+// Converts an integer to string and returns the length of the string.
+// Adds leading zeros if the resulting string is shorter than 'minlen'.
+int intToStr(int x, char str[], int minlen) {
+    int i = 0;
+    bool isNegative = x < 0;
+
+    if (isNegative) {
+        x = -x;
+    }
+
+    // Generate digits in reverse order
+    do {
+        str[i++] = (x % 10) + '0';
+        x = x / 10;
+    } while (x);
+
+    // Add leading zeros if needed
+    while (i < minlen) {
+        str[i++] = '0';
+    }
+
+    if (isNegative) {
+        str[i++] = '-';
+    }
+
+    str[i] = '\0'; // Terminate string
+
+    // Reverse the string
+    reverse(str, i);
+
+    return i; // Return length of string
+}
+
+// Converts a floating-point number to a string.
+void ftoa(float n, char *res, int afterpoint) {
+    // Handle negative numbers
+    if (n < 0) {
+        res[0] = '-';
+        ftoa(-n, res + 1, afterpoint);
+        return;
+    }
+
+    int ipart = (int)n; // Extract integer part
+    float fpart = n - (float)ipart; // Extract floating part
+
+    // Convert integer part to string
+    int i = intToStr(ipart, res, 0);
+
+    // Process fractional part
+    if (afterpoint != 0) {
+        res[i] = '.'; // Add decimal point
+
+        // Amplify the fractional part to the desired precision
+        fpart *= pow(10, afterpoint);
+
+        intToStr((int)(fpart + 0.5), res + i + 1, afterpoint); // Add rounded fractional part
+    }
 }
